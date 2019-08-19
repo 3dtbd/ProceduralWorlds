@@ -34,6 +34,8 @@ sysinfo.txt
 Logs
 Assets/Generated
 Assets/Generated.meta
+Assets/Scenes/*/
+Assets/Scenes/*.meta
 
 # Builds
 *.apk
@@ -52,8 +54,6 @@ Assets/Gaia Dependencies
 Assets/Gaia Dependencies.meta
 Assets/GaiaSessions
 Assets/GaiaSessions.meta
-Assets/GaiaTerrainLayers
-Assets/GaiaTerrainLayers.meta
 Assets/GeNa
 Assets/GeNa.meta
 
