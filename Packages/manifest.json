@@ -7,7 +7,7 @@
     "com.unity.postprocessing": "2.1.3",
     "com.unity.purchasing": "2.0.3",
     "com.unity.textmeshpro": "1.4.1",
-    "org.3dtbd.models": "https://github.com/3dtbd/Models.git#release/stable",
+    "org.3dtbd.models": "https://github.com/3dtbd/Models.git#release/v0.0.3",
     "org.3dtbd.textures": "https://github.com/3dtbd/Textures.git#release/v0.0.4",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
@@ -42,8 +42,8 @@
   },
   "lock": {
     "org.3dtbd.models": {
-      "hash": "c1ff7f43825ebce9aad61220c878dea3bc0f847f",
-      "revision": "release/stable"
+      "hash": "bcd742974d591d21b5ef85909e307c5c40cf7a03",
+      "revision": "release/v0.0.3"
     },
     "org.3dtbd.textures": {
       "hash": "e6cbd7f5b6afec1a090d85d2fcbb15dbb47be18a",
