@@ -1,0 +1,1937 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6676048195809038398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6676048195809038399}
+  - component: {fileID: 6676048195809038397}
+  - component: {fileID: 6676048195809038396}
+  m_Layer: 0
+  m_Name: GeNa Spawner - House 4 and Environment (Structured)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6676048195809038399
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6676048195809038398}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6676048195809038397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6676048195809038398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5efcd4511085ba6459896bd80edeeb0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_majorVersion: 2
+  m_minorVersion: 5
+  m_patchVersion: 0
+  m_isCache: 0
+  m_isLinked: 0
+  m_type: 1
+  m_childSpawnMode: 0
+  m_spawnMode: 0
+  m_flowDistanceSqr: 1367.5204
+  m_parentName: House 4 and Environment
+  m_mergeSpawns: 1
+  m_spawnToTarget: 1
+  m_sortPrototypes: 0
+  m_spawnPrototypes:
+  - m_spawner: {fileID: 6676048195809038397}
+    m_id: 0
+    m_name: House 4 and Environment
+    m_active: 1
+    m_size: {x: 27.522686, y: 25.019161, z: 36.931656}
+    m_extents: {x: 13.761343, y: 12.509581, z: 18.465828}
+    m_boundsBorder: 0
+    m_constrainWithinMaskedBounds: 0
+    m_invertMaskedAlpha: 0
+    m_scaleOnMaskedAlpha: 0
+    m_scaleOnMaskedAlphaMin: 0.5
+    m_scaleOnMaskedAlphaMax: 1
+    m_successOnMaskedAlpha: 0
+    m_forwardRotation: 0
+    m_resources: []
+    m_resourceType: 0
+    m_hasColliders: 1
+    m_hasMeshes: 1
+    m_hasRigidBody: 0
+    m_instancesSpawned: 11
+    m_imageFilterColour: {r: 1, g: 1, b: 1, a: 1}
+    m_imageFilterFuzzyMatch: 0.8
+    m_displayedInEditor: 1
+    m_showAdvancedOptions: 1
+    m_hasLinkedSpawner: 0
+    ShowSpawnCriteriaOverrides: 0
+    m_anyCritOverrideApplies: 0
+    m_overrideCritVirginCheckType: 0
+    m_overrideCritSpawnCollisionLayers: 0
+    m_overrideCritBoundsBorder: 0
+    m_overrideCritCheckHeight: 0
+    m_overrideCritMinSpawnHeight: 0
+    m_overrideCritMaxSpawnHeight: 0
+    m_overrideCritHeightVariance: 0
+    m_overrideCritMinSpawnSlope: 0
+    m_overrideCritMaxSpawnSlope: 0
+    m_overrideCritCheckSlope: 0
+    m_overrideCritSlopeVariance: 0
+    m_overrideCritCheckTextures: 0
+    m_overrideCritTextureStrength: 0
+    m_overrideCritTextureVariance: 0
+    m_overrideCritMaskInvert: 0
+    m_critVirginCheckType: 2
+    m_critSpawnCollisionLayers:
+      serializedVersion: 2
+      m_Bits: 1
+    m_critBoundsBorder: 0.27
+    m_critCheckHeightType: 3
+    m_critCheckHeight: 1
+    m_critMinSpawnHeight: 50
+    m_critMaxSpawnHeight: 650
+    m_critHeightVariance: 30
+    m_critCheckSlopeType: 1
+    m_critCheckSlope: 1
+    m_critMinSpawnSlope: 0
+    m_critMaxSpawnSlope: 90
+    m_critSlopeVariance: 30
+    m_critCheckTextures: 0
+    m_critTextureStrength: 0
+    m_critTextureVariance: 0.1
+    m_disableCritCheckMask: 0
+    m_critMaskInvert: 0
+    m_critMinHeight: 50
+    m_critMaxHeight: 65
+    m_critMinSlope: 0
+    m_critMaxSlope: 15
+    m_critMinTextureStrength: 0
+    m_critMaxTextureStrength: 0.05
+    m_critMaskFractalMin: 0.25
+    m_critMaskFractalMax: 0.75
+    m_hasExtensions: 1
+    _allResources:
+    - m_spawner: {fileID: 6676048195809038397}
+      m_name: House 4 and Environment
+      m_resourceType: 0
+      ContainerOnly: 1
+      m_prefab: {fileID: 0}
+      m_assetID: 
+      m_assetName: 
+      m_static: 1
+      m_successRate: 1
+      m_conformToSlope: 0
+      m_minOffset: {x: 0.4940319, y: 0, z: 2.3459682}
+      m_maxOffset: {x: 0.4940319, y: 0, z: 2.3459682}
+      m_minRotation: {x: -0, y: 0, z: 0}
+      m_maxRotation: {x: -0, y: 0, z: 0}
+      m_sameScale: 1
+      m_minScale: {x: 1, y: 1, z: 1}
+      m_maxScale: {x: 1, y: 1, z: 1}
+      m_brushTextures: []
+      m_brushTXIndex: 0
+      m_baseBrush:
+        m_size: 0
+        m_strength: []
+        m_brush: {fileID: 0}
+      m_opacity: 1
+      m_targetStrength: 1
+      m_terrainProtoIdx: 0
+      m_hasColliders: 1
+      m_hasRootCollider: 0
+      m_hasMeshes: 1
+      m_hasRigidBody: 0
+      m_flagLightmapStatic: 1
+      m_flagBatchingStatic: 1
+      m_flagOccludeeStatic: 1
+      m_flagOccluderStatic: 1
+      m_flagNavigationStatic: 1
+      m_flagOffMeshLinkGeneration: 1
+      m_flagReflectionProbeStatic: 1
+      m_flagMovingObject: 0
+      m_flagCanBeOptimised: 1
+      m_flagForceOptimise: 0
+      m_flagIsOutdoorObject: 1
+      m_useColliderBounds: 0
+      m_basePosition: {x: 0, y: 0, z: 0}
+      m_baseRotation: {x: -0, y: 0, z: 0}
+      m_baseScale: {x: 1, y: 1, z: 1}
+      m_baseSize: {x: 27.522686, y: 15.827078, z: 36.931656}
+      m_boundsCenter: {x: 0.41891098, y: 6.470774, z: -0.37649155}
+      m_baseColliderCenter: {x: 0.41891003, y: 6.470774, z: -0.37649155}
+      m_baseColliderUseConstScale: 1
+      m_baseColliderConstScaleAmount: 0.75
+      m_baseColliderScale: {x: 27.522688, y: 15.827078, z: 36.931656}
+      m_instancesSpawned: 11
+      m_avsID: 
+      m_avsVegetationType: 3
+      m_displayedInEditor: 0
+      OpenedInGuiHierarchy: 0
+      _parentIx: -1
+      m_linkedSpawners: 
+      _extensions: []
+      _hasStatefulExtensions: 0
+      _statelessExtensions:
+      - U3dtbd.gena.SetAtGroundLevelExtension, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    - m_spawner: {fileID: 6676048195809038397}
+      m_name: House 4
+      m_resourceType: 0
+      ContainerOnly: 0
+      m_prefab: {fileID: 8181070112324583455, guid: 62046765679b1c74dbc104a8c3bfe2cc,
+        type: 3}
+      m_assetID: 62046765679b1c74dbc104a8c3bfe2cc
+      m_assetName: House 4
+      m_static: 1
+      m_successRate: 1
+      m_conformToSlope: 0
+      m_minOffset: {x: 0, y: 0, z: 0}
+      m_maxOffset: {x: 0, y: 0, z: 0}
+      m_minRotation: {x: -0, y: 0, z: 0}
+      m_maxRotation: {x: -0, y: 0, z: 0}
+      m_sameScale: 1
+      m_minScale: {x: 1, y: 1, z: 1}
+      m_maxScale: {x: 1, y: 1, z: 1}
+      m_brushTextures: []
+      m_brushTXIndex: 0
+      m_baseBrush:
+        m_size: 0
+        m_strength: []
+        m_brush: {fileID: 0}
+      m_opacity: 1
+      m_targetStrength: 1
+      m_terrainProtoIdx: 0
+      m_hasColliders: 1
+      m_hasRootCollider: 0
+      m_hasMeshes: 1
+      m_hasRigidBody: 0
+      m_flagLightmapStatic: 0
+      m_flagBatchingStatic: 0
+      m_flagOccludeeStatic: 0
+      m_flagOccluderStatic: 0
+      m_flagNavigationStatic: 0
+      m_flagOffMeshLinkGeneration: 0
+      m_flagReflectionProbeStatic: 0
+      m_flagMovingObject: 0
+      m_flagCanBeOptimised: 1
+      m_flagForceOptimise: 0
+      m_flagIsOutdoorObject: 1
+      m_useColliderBounds: 0
+      m_basePosition: {x: 0, y: 0, z: 0}
+      m_baseRotation: {x: -0, y: 0, z: 0}
+      m_baseScale: {x: 1, y: 1, z: 1}
+      m_baseSize: {x: 15.091291, y: 9.794271, z: 10.128694}
+      m_boundsCenter: {x: -0.010262489, y: 4.918808, z: -0.31929064}
+      m_baseColliderCenter: {x: -0.010262489, y: 4.907972, z: -0.31929064}
+      m_baseColliderUseConstScale: 1
+      m_baseColliderConstScaleAmount: 0.75
+      m_baseColliderScale: {x: 15.091291, y: 9.815944, z: 10.128694}
+      m_instancesSpawned: 26
+      m_avsID: 
+      m_avsVegetationType: 3
+      m_displayedInEditor: 0
+      OpenedInGuiHierarchy: 0
+      _parentIx: 0
+      m_linkedSpawners: 
+      _extensions: []
+      _hasStatefulExtensions: 0
+      _statelessExtensions: []
+    - m_spawner: {fileID: 6676048195809038397}
+      m_name: Well
+      m_resourceType: 0
+      ContainerOnly: 0
+      m_prefab: {fileID: 55386403788949067, guid: 34b24e4c4ad583a4393991b3936c0cb1,
+        type: 3}
+      m_assetID: 34b24e4c4ad583a4393991b3936c0cb1
+      m_assetName: Well
+      m_static: 1
+      m_successRate: 1
+      m_conformToSlope: 0
+      m_minOffset: {x: 0.34213585, y: 1, z: 13.1}
+      m_maxOffset: {x: 0.34213585, y: 1, z: 13.1}
+      m_minRotation: {x: -0.0000043257114, y: 0, z: 0}
+      m_maxRotation: {x: -0.0000043257114, y: 0, z: 0}
+      m_sameScale: 1
+      m_minScale: {x: 53.44535, y: 53.44535, z: 53.44535}
+      m_maxScale: {x: 53.44535, y: 53.44535, z: 53.44535}
+      m_brushTextures: []
+      m_brushTXIndex: 0
+      m_baseBrush:
+        m_size: 0
+        m_strength: []
+        m_brush: {fileID: 0}
+      m_opacity: 1
+      m_targetStrength: 1
+      m_terrainProtoIdx: 0
+      m_hasColliders: 1
+      m_hasRootCollider: 1
+      m_hasMeshes: 1
+      m_hasRigidBody: 0
+      m_flagLightmapStatic: 0
+      m_flagBatchingStatic: 0
+      m_flagOccludeeStatic: 0
+      m_flagOccluderStatic: 0
+      m_flagNavigationStatic: 0
+      m_flagOffMeshLinkGeneration: 0
+      m_flagReflectionProbeStatic: 0
+      m_flagMovingObject: 0
+      m_flagCanBeOptimised: 1
+      m_flagForceOptimise: 0
+      m_flagIsOutdoorObject: 1
+      m_useColliderBounds: 0
+      m_basePosition: {x: 0.34213585, y: 1.0073073, z: 13.1}
+      m_baseRotation: {x: -0.0000043257114, y: 0, z: 0}
+      m_baseScale: {x: 53.44535, y: 53.44535, z: 53.44535}
+      m_baseSize: {x: 0.039358407, y: 0.060000002, z: 0.038}
+      m_boundsCenter: {x: -0.0006792005, y: 0, z: 0}
+      m_baseColliderCenter: {x: 0.3421358, y: 1.0073073, z: 7.057731}
+      m_baseColliderUseConstScale: 1
+      m_baseColliderConstScaleAmount: 0.75
+      m_baseColliderScale: {x: 2.0309236, y: 3.2067213, z: 14.115462}
+      m_instancesSpawned: 26
+      m_avsID: 
+      m_avsVegetationType: 3
+      m_displayedInEditor: 0
+      OpenedInGuiHierarchy: 1
+      _parentIx: 0
+      m_linkedSpawners: 
+      _extensions: []
+      _hasStatefulExtensions: 0
+      _statelessExtensions: []
+    - m_spawner: {fileID: 6676048195809038397}
+      m_name: Cart
+      m_resourceType: 0
+      ContainerOnly: 0
+      m_prefab: {fileID: 3144548681290525853, guid: ec9d32322487ffa449de3b24d63c53c4,
+        type: 3}
+      m_assetID: ec9d32322487ffa449de3b24d63c53c4
+      m_assetName: Cart
+      m_static: 1
+      m_successRate: 1
+      m_conformToSlope: 1
+      m_minOffset: {x: 8.310702, y: -0.103140146, z: 0.450036}
+      m_maxOffset: {x: 8.310702, y: -0.103140146, z: 0.450036}
+      m_minRotation: {x: 3.289817, y: 76.98551, z: 18.784086}
+      m_maxRotation: {x: 3.289817, y: 76.98551, z: 18.784086}
+      m_sameScale: 1
+      m_minScale: {x: 1, y: 1, z: 1}
+      m_maxScale: {x: 1, y: 1, z: 1}
+      m_brushTextures: []
+      m_brushTXIndex: 0
+      m_baseBrush:
+        m_size: 0
+        m_strength: []
+        m_brush: {fileID: 0}
+      m_opacity: 1
+      m_targetStrength: 1
+      m_terrainProtoIdx: 0
+      m_hasColliders: 0
+      m_hasRootCollider: 0
+      m_hasMeshes: 1
+      m_hasRigidBody: 0
+      m_flagLightmapStatic: 0
+      m_flagBatchingStatic: 0
+      m_flagOccludeeStatic: 0
+      m_flagOccluderStatic: 0
+      m_flagNavigationStatic: 0
+      m_flagOffMeshLinkGeneration: 0
+      m_flagReflectionProbeStatic: 0
+      m_flagMovingObject: 0
+      m_flagCanBeOptimised: 1
+      m_flagForceOptimise: 0
+      m_flagIsOutdoorObject: 1
+      m_useColliderBounds: 0
+      m_basePosition: {x: 8.310702, y: -0.103140146, z: 0.450036}
+      m_baseRotation: {x: 3.289817, y: 76.98551, z: 18.784086}
+      m_baseScale: {x: 1, y: 1, z: 1}
+      m_baseSize: {x: 2.372584, y: 1.0176686, z: 1.1620136}
+      m_boundsCenter: {x: 0.031745195, y: 0.48093277, z: 0.007431805}
+      m_baseColliderCenter: {x: 4.582623, y: 0.36120594, z: 0.5793245}
+      m_baseColliderUseConstScale: 1
+      m_baseColliderConstScaleAmount: 0.75
+      m_baseColliderScale: {x: 9.165246, y: 1.7912827, z: 2.771624}
+      m_instancesSpawned: 26
+      m_avsID: 
+      m_avsVegetationType: 3
+      m_displayedInEditor: 0
+      OpenedInGuiHierarchy: 0
+      _parentIx: 0
+      m_linkedSpawners: 
+      _extensions: []
+      _hasStatefulExtensions: 0
+      _statelessExtensions: []
+    - m_spawner: {fileID: 6676048195809038397}
+      m_name: Wheel Barrow
+      m_resourceType: 0
+      ContainerOnly: 0
+      m_prefab: {fileID: 6062552572539872108, guid: 1d8a79c351b2b5f4ba21b4c898466b5f,
+        type: 3}
+      m_assetID: 1d8a79c351b2b5f4ba21b4c898466b5f
+      m_assetName: Wheel Barrow
+      m_static: 1
+      m_successRate: 1
+      m_conformToSlope: 1
+      m_minOffset: {x: 1.48, y: 0.141, z: -5.530459}
+      m_maxOffset: {x: 1.48, y: 0.141, z: -5.530459}
+      m_minRotation: {x: 335.8703, y: 180, z: 180}
+      m_maxRotation: {x: 335.8703, y: 180, z: 180}
+      m_sameScale: 0
+      m_minScale: {x: 100, y: 100.000015, z: 100.000015}
+      m_maxScale: {x: 100, y: 100.000015, z: 100.000015}
+      m_brushTextures: []
+      m_brushTXIndex: 0
+      m_baseBrush:
+        m_size: 0
+        m_strength: []
+        m_brush: {fileID: 0}
+      m_opacity: 1
+      m_targetStrength: 1
+      m_terrainProtoIdx: 0
+      m_hasColliders: 0
+      m_hasRootCollider: 0
+      m_hasMeshes: 1
+      m_hasRigidBody: 0
+      m_flagLightmapStatic: 0
+      m_flagBatchingStatic: 0
+      m_flagOccludeeStatic: 0
+      m_flagOccluderStatic: 0
+      m_flagNavigationStatic: 0
+      m_flagOffMeshLinkGeneration: 0
+      m_flagReflectionProbeStatic: 0
+      m_flagMovingObject: 0
+      m_flagCanBeOptimised: 1
+      m_flagForceOptimise: 0
+      m_flagIsOutdoorObject: 1
+      m_useColliderBounds: 0
+      m_basePosition: {x: 1.48, y: 0.141, z: -5.530459}
+      m_baseRotation: {x: 335.8703, y: 180, z: 180}
+      m_baseScale: {x: 100, y: 100.000015, z: 100.000015}
+      m_baseSize: {x: 0.0045758933, y: 0.015330905, z: 0.004145361}
+      m_boundsCenter: {x: 0, y: -0.006268464, z: 0}
+      m_baseColliderCenter: {x: 0.85439736, y: 0.7130742, z: -2.888363}
+      m_baseColliderUseConstScale: 1
+      m_baseColliderConstScaleAmount: 0.75
+      m_baseColliderScale: {x: 1.7087947, y: 1.5685968, z: 5.776726}
+      m_instancesSpawned: 26
+      m_avsID: 
+      m_avsVegetationType: 3
+      m_displayedInEditor: 0
+      OpenedInGuiHierarchy: 0
+      _parentIx: 0
+      m_linkedSpawners: 
+      _extensions: []
+      _hasStatefulExtensions: 0
+      _statelessExtensions: []
+    - m_spawner: {fileID: 6676048195809038397}
+      m_name: Bench
+      m_resourceType: 0
+      ContainerOnly: 0
+      m_prefab: {fileID: 3874107515330058452, guid: dc06476965e0b8d4d8f357c3d71c630a,
+        type: 3}
+      m_assetID: dc06476965e0b8d4d8f357c3d71c630a
+      m_assetName: Bench
+      m_static: 1
+      m_successRate: 1
+      m_conformToSlope: 1
+      m_minOffset: {x: 5.9985027, y: 0.3896694, z: 3.168797}
+      m_maxOffset: {x: 5.9985027, y: 0.3896694, z: 3.168797}
+      m_minRotation: {x: -0, y: 0, z: 0}
+      m_maxRotation: {x: -0, y: 0, z: 0}
+      m_sameScale: 0
+      m_minScale: {x: 110, y: 70, z: 70}
+      m_maxScale: {x: 110, y: 70, z: 70}
+      m_brushTextures: []
+      m_brushTXIndex: 0
+      m_baseBrush:
+        m_size: 0
+        m_strength: []
+        m_brush: {fileID: 0}
+      m_opacity: 1
+      m_targetStrength: 1
+      m_terrainProtoIdx: 0
+      m_hasColliders: 0
+      m_hasRootCollider: 0
+      m_hasMeshes: 1
+      m_hasRigidBody: 0
+      m_flagLightmapStatic: 0
+      m_flagBatchingStatic: 0
+      m_flagOccludeeStatic: 0
+      m_flagOccluderStatic: 0
+      m_flagNavigationStatic: 0
+      m_flagOffMeshLinkGeneration: 0
+      m_flagReflectionProbeStatic: 0
+      m_flagMovingObject: 0
+      m_flagCanBeOptimised: 1
+      m_flagForceOptimise: 0
+      m_flagIsOutdoorObject: 1
+      m_useColliderBounds: 0
+      m_basePosition: {x: 5.9985027, y: 0.3896694, z: 3.168797}
+      m_baseRotation: {x: -0, y: 0, z: 0}
+      m_baseScale: {x: 110, y: 70, z: 70}
+      m_baseSize: {x: 0.0152696725, y: 0.011110457, z: 0.0066119134}
+      m_boundsCenter: {x: 0, y: -0.000011476921, z: -0.0000030361116}
+      m_baseColliderCenter: {x: 3.4191673, y: 0.388866, z: 1.7000008}
+      m_baseColliderUseConstScale: 1
+      m_baseColliderConstScaleAmount: 0.75
+      m_baseColliderScale: {x: 6.8383346, y: 0.777732, z: 3.4000015}
+      m_instancesSpawned: 26
+      m_avsID: 
+      m_avsVegetationType: 3
+      m_displayedInEditor: 0
+      OpenedInGuiHierarchy: 0
+      _parentIx: 0
+      m_linkedSpawners: 
+      _extensions: []
+      _hasStatefulExtensions: 0
+      _statelessExtensions: []
+    - m_spawner: {fileID: 6676048195809038397}
+      m_name: Bench (1)
+      m_resourceType: 0
+      ContainerOnly: 0
+      m_prefab: {fileID: 3874107515330058452, guid: dc06476965e0b8d4d8f357c3d71c630a,
+        type: 3}
+      m_assetID: dc06476965e0b8d4d8f357c3d71c630a
+      m_assetName: Bench
+      m_static: 1
+      m_successRate: 1
+      m_conformToSlope: 1
+      m_minOffset: {x: 3.76, y: 0.3896694, z: 3.11}
+      m_maxOffset: {x: 3.76, y: 0.3896694, z: 3.11}
+      m_minRotation: {x: -0, y: 0, z: 0}
+      m_maxRotation: {x: -0, y: 0, z: 0}
+      m_sameScale: 0
+      m_minScale: {x: 110, y: 70, z: 70}
+      m_maxScale: {x: 110, y: 70, z: 70}
+      m_brushTextures: []
+      m_brushTXIndex: 0
+      m_baseBrush:
+        m_size: 0
+        m_strength: []
+        m_brush: {fileID: 0}
+      m_opacity: 1
+      m_targetStrength: 1
+      m_terrainProtoIdx: 0
+      m_hasColliders: 0
+      m_hasRootCollider: 0
+      m_hasMeshes: 1
+      m_hasRigidBody: 0
+      m_flagLightmapStatic: 0
+      m_flagBatchingStatic: 0
+      m_flagOccludeeStatic: 0
+      m_flagOccluderStatic: 0
+      m_flagNavigationStatic: 0
+      m_flagOffMeshLinkGeneration: 0
+      m_flagReflectionProbeStatic: 0
+      m_flagMovingObject: 0
+      m_flagCanBeOptimised: 1
+      m_flagForceOptimise: 0
+      m_flagIsOutdoorObject: 1
+      m_useColliderBounds: 0
+      m_basePosition: {x: 3.76, y: 0.3896694, z: 3.11}
+      m_baseRotation: {x: -0, y: 0, z: 0}
+      m_baseScale: {x: 110, y: 70, z: 70}
+      m_baseSize: {x: 0.0152696725, y: 0.011110457, z: 0.0066119134}
+      m_boundsCenter: {x: 0, y: -0.000011476921, z: -0.0000030361116}
+      m_baseColliderCenter: {x: 2.299916, y: 0.388866, z: 1.6706022}
+      m_baseColliderUseConstScale: 1
+      m_baseColliderConstScaleAmount: 0.75
+      m_baseColliderScale: {x: 4.599832, y: 0.777732, z: 3.3412044}
+      m_instancesSpawned: 26
+      m_avsID: 
+      m_avsVegetationType: 3
+      m_displayedInEditor: 0
+      OpenedInGuiHierarchy: 0
+      _parentIx: 0
+      m_linkedSpawners: 
+      _extensions: []
+      _hasStatefulExtensions: 0
+      _statelessExtensions: []
+    - m_spawner: {fileID: 6676048195809038397}
+      m_name: Bench (2)
+      m_resourceType: 0
+      ContainerOnly: 0
+      m_prefab: {fileID: 3874107515330058452, guid: dc06476965e0b8d4d8f357c3d71c630a,
+        type: 3}
+      m_assetID: dc06476965e0b8d4d8f357c3d71c630a
+      m_assetName: Bench
+      m_static: 1
+      m_successRate: 1
+      m_conformToSlope: 1
+      m_minOffset: {x: -3.48, y: 0.3896694, z: 3.1}
+      m_maxOffset: {x: -3.48, y: 0.3896694, z: 3.1}
+      m_minRotation: {x: -0, y: 0, z: 0}
+      m_maxRotation: {x: -0, y: 0, z: 0}
+      m_sameScale: 0
+      m_minScale: {x: 110, y: 70, z: 70}
+      m_maxScale: {x: 110, y: 70, z: 70}
+      m_brushTextures: []
+      m_brushTXIndex: 0
+      m_baseBrush:
+        m_size: 0
+        m_strength: []
+        m_brush: {fileID: 0}
+      m_opacity: 1
+      m_targetStrength: 1
+      m_terrainProtoIdx: 0
+      m_hasColliders: 0
+      m_hasRootCollider: 0
+      m_hasMeshes: 1
+      m_hasRigidBody: 0
+      m_flagLightmapStatic: 0
+      m_flagBatchingStatic: 0
+      m_flagOccludeeStatic: 0
+      m_flagOccluderStatic: 0
+      m_flagNavigationStatic: 0
+      m_flagOffMeshLinkGeneration: 0
+      m_flagReflectionProbeStatic: 0
+      m_flagMovingObject: 0
+      m_flagCanBeOptimised: 1
+      m_flagForceOptimise: 0
+      m_flagIsOutdoorObject: 1
+      m_useColliderBounds: 0
+      m_basePosition: {x: -3.48, y: 0.3896694, z: 3.1}
+      m_baseRotation: {x: -0, y: 0, z: 0}
+      m_baseScale: {x: 110, y: 70, z: 70}
+      m_baseSize: {x: 0.0152696725, y: 0.011110457, z: 0.0066119134}
+      m_boundsCenter: {x: 0, y: -0.000011476921, z: -0.0000030361116}
+      m_baseColliderCenter: {x: -2.159916, y: 0.388866, z: 1.6656022}
+      m_baseColliderUseConstScale: 1
+      m_baseColliderConstScaleAmount: 0.75
+      m_baseColliderScale: {x: 4.319832, y: 0.777732, z: 3.3312044}
+      m_instancesSpawned: 26
+      m_avsID: 
+      m_avsVegetationType: 3
+      m_displayedInEditor: 0
+      OpenedInGuiHierarchy: 0
+      _parentIx: 0
+      m_linkedSpawners: 
+      _extensions: []
+      _hasStatefulExtensions: 0
+      _statelessExtensions: []
+    - m_spawner: {fileID: 6676048195809038397}
+      m_name: Bench (3)
+      m_resourceType: 0
+      ContainerOnly: 0
+      m_prefab: {fileID: 3874107515330058452, guid: dc06476965e0b8d4d8f357c3d71c630a,
+        type: 3}
+      m_assetID: dc06476965e0b8d4d8f357c3d71c630a
+      m_assetName: Bench
+      m_static: 1
+      m_successRate: 1
+      m_conformToSlope: 1
+      m_minOffset: {x: -5.498, y: 0.3896694, z: 3.177}
+      m_maxOffset: {x: -5.498, y: 0.3896694, z: 3.177}
+      m_minRotation: {x: -0, y: 0, z: 0}
+      m_maxRotation: {x: -0, y: 0, z: 0}
+      m_sameScale: 0
+      m_minScale: {x: 110, y: 70, z: 70}
+      m_maxScale: {x: 110, y: 70, z: 70}
+      m_brushTextures: []
+      m_brushTXIndex: 0
+      m_baseBrush:
+        m_size: 0
+        m_strength: []
+        m_brush: {fileID: 0}
+      m_opacity: 1
+      m_targetStrength: 1
+      m_terrainProtoIdx: 0
+      m_hasColliders: 0
+      m_hasRootCollider: 0
+      m_hasMeshes: 1
+      m_hasRigidBody: 0
+      m_flagLightmapStatic: 0
+      m_flagBatchingStatic: 0
+      m_flagOccludeeStatic: 0
+      m_flagOccluderStatic: 0
+      m_flagNavigationStatic: 0
+      m_flagOffMeshLinkGeneration: 0
+      m_flagReflectionProbeStatic: 0
+      m_flagMovingObject: 0
+      m_flagCanBeOptimised: 1
+      m_flagForceOptimise: 0
+      m_flagIsOutdoorObject: 1
+      m_useColliderBounds: 0
+      m_basePosition: {x: -5.498, y: 0.3896694, z: 3.177}
+      m_baseRotation: {x: -0, y: 0, z: 0}
+      m_baseScale: {x: 110, y: 70, z: 70}
+      m_baseSize: {x: 0.0152696725, y: 0.011110457, z: 0.0066119134}
+      m_boundsCenter: {x: 0, y: -0.000011476921, z: -0.0000030361116}
+      m_baseColliderCenter: {x: -3.168916, y: 0.388866, z: 1.7041023}
+      m_baseColliderUseConstScale: 1
+      m_baseColliderConstScaleAmount: 0.75
+      m_baseColliderScale: {x: 6.337832, y: 0.777732, z: 3.4082046}
+      m_instancesSpawned: 26
+      m_avsID: 
+      m_avsVegetationType: 3
+      m_displayedInEditor: 0
+      OpenedInGuiHierarchy: 0
+      _parentIx: 0
+      m_linkedSpawners: 
+      _extensions: []
+      _hasStatefulExtensions: 0
+      _statelessExtensions: []
+    - m_spawner: {fileID: 6676048195809038397}
+      m_name: Medium Rock Grouping
+      m_resourceType: 0
+      ContainerOnly: 0
+      m_prefab: {fileID: 2272598138716836751, guid: dd358e9dbaec7324c8330496b7c2a8ef,
+        type: 3}
+      m_assetID: dd358e9dbaec7324c8330496b7c2a8ef
+      m_assetName: Medium Rock Grouping
+      m_static: 1
+      m_successRate: 1
+      m_conformToSlope: 1
+      m_minOffset: {x: 7.2770796, y: -0.63, z: 11.842911}
+      m_maxOffset: {x: 7.2770796, y: -0.063, z: 11.842911}
+      m_minRotation: {x: -0, y: 0, z: 0}
+      m_maxRotation: {x: -0, y: 0, z: 0}
+      m_sameScale: 1
+      m_minScale: {x: 1, y: 1, z: 1}
+      m_maxScale: {x: 1, y: 1, z: 1}
+      m_brushTextures: []
+      m_brushTXIndex: 0
+      m_baseBrush:
+        m_size: 0
+        m_strength: []
+        m_brush: {fileID: 0}
+      m_opacity: 1
+      m_targetStrength: 1
+      m_terrainProtoIdx: 0
+      m_hasColliders: 0
+      m_hasRootCollider: 0
+      m_hasMeshes: 1
+      m_hasRigidBody: 0
+      m_flagLightmapStatic: 0
+      m_flagBatchingStatic: 0
+      m_flagOccludeeStatic: 0
+      m_flagOccluderStatic: 0
+      m_flagNavigationStatic: 0
+      m_flagOffMeshLinkGeneration: 0
+      m_flagReflectionProbeStatic: 0
+      m_flagMovingObject: 0
+      m_flagCanBeOptimised: 1
+      m_flagForceOptimise: 0
+      m_flagIsOutdoorObject: 1
+      m_useColliderBounds: 0
+      m_basePosition: {x: 7.2770796, y: -0.69, z: 11.842911}
+      m_baseRotation: {x: -0, y: 0, z: 0}
+      m_baseScale: {x: 1, y: 1, z: 1}
+      m_baseSize: {x: 8.521427, y: 3.5498028, z: 8.135054}
+      m_boundsCenter: {x: -3.106594, y: 1.0221364, z: 2.1788988}
+      m_baseColliderCenter: {x: 4.170486, y: 0.33213663, z: 9.044668}
+      m_baseColliderUseConstScale: 1
+      m_baseColliderConstScaleAmount: 0.75
+      m_baseColliderScale: {x: 8.52143, y: 3.5498028, z: 18.089336}
+      m_instancesSpawned: 26
+      m_avsID: 
+      m_avsVegetationType: 3
+      m_displayedInEditor: 0
+      OpenedInGuiHierarchy: 1
+      _parentIx: 0
+      m_linkedSpawners: 
+      _extensions: []
+      _hasStatefulExtensions: 0
+      _statelessExtensions: []
+    - m_spawner: {fileID: 6676048195809038397}
+      m_name: Medium Rock Grouping 0
+      m_resourceType: 0
+      ContainerOnly: 0
+      m_prefab: {fileID: 2272598138716836751, guid: dd358e9dbaec7324c8330496b7c2a8ef,
+        type: 3}
+      m_assetID: dd358e9dbaec7324c8330496b7c2a8ef
+      m_assetName: Medium Rock Grouping
+      m_static: 1
+      m_successRate: 1
+      m_conformToSlope: 1
+      m_minOffset: {x: -12.972, y: 0.0099655, z: -6.7113}
+      m_maxOffset: {x: -12.972, y: 0.0099655, z: -6.7113}
+      m_minRotation: {x: -0, y: 136.77399, z: -0}
+      m_maxRotation: {x: -0, y: 136.77399, z: -0}
+      m_sameScale: 1
+      m_minScale: {x: 0.34454024, y: 0.34454, z: 0.34454024}
+      m_maxScale: {x: 0.34454024, y: 0.34454, z: 0.34454024}
+      m_brushTextures: []
+      m_brushTXIndex: 0
+      m_baseBrush:
+        m_size: 0
+        m_strength: []
+        m_brush: {fileID: 0}
+      m_opacity: 1
+      m_targetStrength: 1
+      m_terrainProtoIdx: 0
+      m_hasColliders: 0
+      m_hasRootCollider: 0
+      m_hasMeshes: 1
+      m_hasRigidBody: 0
+      m_flagLightmapStatic: 0
+      m_flagBatchingStatic: 0
+      m_flagOccludeeStatic: 0
+      m_flagOccluderStatic: 0
+      m_flagNavigationStatic: 0
+      m_flagOffMeshLinkGeneration: 0
+      m_flagReflectionProbeStatic: 0
+      m_flagMovingObject: 0
+      m_flagCanBeOptimised: 1
+      m_flagForceOptimise: 0
+      m_flagIsOutdoorObject: 1
+      m_useColliderBounds: 0
+      m_basePosition: {x: -12.972, y: 0.0099655, z: -6.7113}
+      m_baseRotation: {x: -0, y: 136.77399, z: -0}
+      m_baseScale: {x: 0.34454024, y: 0.34454, z: 0.34454024}
+      m_baseSize: {x: 8.521427, y: 3.5498028, z: 8.135054}
+      m_boundsCenter: {x: -3.106594, y: 1.0221364, z: 2.1788988}
+      m_baseColliderCenter: {x: -6.671217, y: 0.36213183, z: -3.9810798}
+      m_baseColliderUseConstScale: 1
+      m_baseColliderConstScaleAmount: 0.75
+      m_baseColliderScale: {x: 13.342434, y: 1.2230505, z: 7.9621596}
+      m_instancesSpawned: 26
+      m_avsID: 
+      m_avsVegetationType: 3
+      m_displayedInEditor: 0
+      OpenedInGuiHierarchy: 1
+      _parentIx: 0
+      m_linkedSpawners: 
+      _extensions: []
+      _hasStatefulExtensions: 0
+      _statelessExtensions: []
+    - m_spawner: {fileID: 6676048195809038397}
+      m_name: Medium Rock Grouping (1)
+      m_resourceType: 0
+      ContainerOnly: 0
+      m_prefab: {fileID: 2272598138716836751, guid: dd358e9dbaec7324c8330496b7c2a8ef,
+        type: 3}
+      m_assetID: dd358e9dbaec7324c8330496b7c2a8ef
+      m_assetName: Medium Rock Grouping
+      m_static: 1
+      m_successRate: 1
+      m_conformToSlope: 1
+      m_minOffset: {x: -11.48, y: 0.009965509, z: -4.69}
+      m_maxOffset: {x: -11.48, y: 0.009965509, z: -4.69}
+      m_minRotation: {x: 0, y: 209.68997, z: 0}
+      m_maxRotation: {x: 0, y: 209.68997, z: 0}
+      m_sameScale: 1
+      m_minScale: {x: 0.34453988, y: 0.34454, z: 0.34453988}
+      m_maxScale: {x: 0.34453988, y: 0.34454, z: 0.34453988}
+      m_brushTextures: []
+      m_brushTXIndex: 0
+      m_baseBrush:
+        m_size: 0
+        m_strength: []
+        m_brush: {fileID: 0}
+      m_opacity: 1
+      m_targetStrength: 1
+      m_terrainProtoIdx: 0
+      m_hasColliders: 0
+      m_hasRootCollider: 0
+      m_hasMeshes: 1
+      m_hasRigidBody: 0
+      m_flagLightmapStatic: 0
+      m_flagBatchingStatic: 0
+      m_flagOccludeeStatic: 0
+      m_flagOccluderStatic: 0
+      m_flagNavigationStatic: 0
+      m_flagOffMeshLinkGeneration: 0
+      m_flagReflectionProbeStatic: 0
+      m_flagMovingObject: 0
+      m_flagCanBeOptimised: 1
+      m_flagForceOptimise: 0
+      m_flagIsOutdoorObject: 1
+      m_useColliderBounds: 0
+      m_basePosition: {x: -11.48, y: 0.009965509, z: -4.69}
+      m_baseRotation: {x: 0, y: 209.68997, z: 0}
+      m_baseScale: {x: 0.34453988, y: 0.34454, z: 0.34453988}
+      m_baseSize: {x: 8.521427, y: 3.5498028, z: 8.135054}
+      m_boundsCenter: {x: -3.106594, y: 1.0221364, z: 2.1788988}
+      m_baseColliderCenter: {x: -6.1453023, y: 0.36213207, z: -3.7398078}
+      m_baseColliderUseConstScale: 1
+      m_baseColliderConstScaleAmount: 0.75
+      m_baseColliderScale: {x: 12.290605, y: 1.2230489, z: 7.4796157}
+      m_instancesSpawned: 26
+      m_avsID: 
+      m_avsVegetationType: 3
+      m_displayedInEditor: 0
+      OpenedInGuiHierarchy: 1
+      _parentIx: 0
+      m_linkedSpawners: 
+      _extensions: []
+      _hasStatefulExtensions: 0
+      _statelessExtensions: []
+    - m_spawner: {fileID: 6676048195809038397}
+      m_name: Tree9_5
+      m_resourceType: 0
+      ContainerOnly: 0
+      m_prefab: {fileID: 114418, guid: 9b8fc966f95ea9c4194dc091fc40b478, type: 3}
+      m_assetID: 9b8fc966f95ea9c4194dc091fc40b478
+      m_assetName: Tree9_5
+      m_static: 1
+      m_successRate: 1
+      m_conformToSlope: 1
+      m_minOffset: {x: 3.1629, y: -0.09, z: -15.509}
+      m_maxOffset: {x: 3.1629, y: -0.09, z: -15.509}
+      m_minRotation: {x: -0, y: 0, z: 0}
+      m_maxRotation: {x: -0, y: 0, z: 0}
+      m_sameScale: 1
+      m_minScale: {x: 0.45836, y: 0.45836, z: 0.45836}
+      m_maxScale: {x: 0.45836, y: 0.45836, z: 0.45836}
+      m_brushTextures: []
+      m_brushTXIndex: 0
+      m_baseBrush:
+        m_size: 0
+        m_strength: []
+        m_brush: {fileID: 0}
+      m_opacity: 1
+      m_targetStrength: 1
+      m_terrainProtoIdx: 0
+      m_hasColliders: 0
+      m_hasRootCollider: 0
+      m_hasMeshes: 1
+      m_hasRigidBody: 0
+      m_flagLightmapStatic: 0
+      m_flagBatchingStatic: 0
+      m_flagOccludeeStatic: 0
+      m_flagOccluderStatic: 0
+      m_flagNavigationStatic: 0
+      m_flagOffMeshLinkGeneration: 0
+      m_flagReflectionProbeStatic: 0
+      m_flagMovingObject: 0
+      m_flagCanBeOptimised: 1
+      m_flagForceOptimise: 0
+      m_flagIsOutdoorObject: 1
+      m_useColliderBounds: 0
+      m_basePosition: {x: 3.1629, y: -0.09, z: -15.509}
+      m_baseRotation: {x: -0, y: 0, z: 0}
+      m_baseScale: {x: 0.45836, y: 0.45836, z: 0.45836}
+      m_baseSize: {x: 17.925137, y: 23.576397, z: 18.688328}
+      m_boundsCenter: {x: -1.9124148, y: 11.788198, z: 2.0718913}
+      m_baseColliderCenter: {x: 2.2863255, y: 5.313238, z: -9.42116}
+      m_baseColliderUseConstScale: 1
+      m_baseColliderConstScaleAmount: 0.75
+      m_baseColliderScale: {x: 8.216166, y: 10.806477, z: 18.84232}
+      m_instancesSpawned: 26
+      m_avsID: 
+      m_avsVegetationType: 3
+      m_displayedInEditor: 0
+      OpenedInGuiHierarchy: 1
+      _parentIx: 0
+      m_linkedSpawners: 
+      _extensions: []
+      _hasStatefulExtensions: 0
+      _statelessExtensions: []
+    - m_spawner: {fileID: 6676048195809038397}
+      m_name: Tree9_3
+      m_resourceType: 0
+      ContainerOnly: 0
+      m_prefab: {fileID: 114418, guid: 8b2d47fdc2e25ac4f9721480a68bbefa, type: 3}
+      m_assetID: 8b2d47fdc2e25ac4f9721480a68bbefa
+      m_assetName: Tree9_3
+      m_static: 1
+      m_successRate: 1
+      m_conformToSlope: 1
+      m_minOffset: {x: 10.018, y: -0.12, z: 5.8105}
+      m_maxOffset: {x: 10.018, y: -0.12, z: 5.8105}
+      m_minRotation: {x: -0, y: 0, z: 0}
+      m_maxRotation: {x: -0, y: 0, z: 0}
+      m_sameScale: 1
+      m_minScale: {x: 0.44596, y: 0.44596, z: 0.44596}
+      m_maxScale: {x: 0.44596, y: 0.44596, z: 0.44596}
+      m_brushTextures: []
+      m_brushTXIndex: 0
+      m_baseBrush:
+        m_size: 0
+        m_strength: []
+        m_brush: {fileID: 0}
+      m_opacity: 1
+      m_targetStrength: 1
+      m_terrainProtoIdx: 0
+      m_hasColliders: 0
+      m_hasRootCollider: 0
+      m_hasMeshes: 1
+      m_hasRigidBody: 0
+      m_flagLightmapStatic: 0
+      m_flagBatchingStatic: 0
+      m_flagOccludeeStatic: 0
+      m_flagOccluderStatic: 0
+      m_flagNavigationStatic: 0
+      m_flagOffMeshLinkGeneration: 0
+      m_flagReflectionProbeStatic: 0
+      m_flagMovingObject: 0
+      m_flagCanBeOptimised: 1
+      m_flagForceOptimise: 0
+      m_flagIsOutdoorObject: 1
+      m_useColliderBounds: 0
+      m_basePosition: {x: 10.018, y: -0.12, z: 5.8105}
+      m_baseRotation: {x: -0, y: 0, z: 0}
+      m_baseScale: {x: 0.44596, y: 0.44596, z: 0.44596}
+      m_baseSize: {x: 18.592083, y: 20.464497, z: 20.932964}
+      m_boundsCenter: {x: 0.03720522, y: 10.232248, z: -0.3363943}
+      m_baseColliderCenter: {x: 7.090127, y: 4.443173, z: 5.164057}
+      m_baseColliderUseConstScale: 1
+      m_baseColliderConstScaleAmount: 0.75
+      m_baseColliderScale: {x: 14.180254, y: 9.126346, z: 10.328114}
+      m_instancesSpawned: 26
+      m_avsID: 
+      m_avsVegetationType: 3
+      m_displayedInEditor: 0
+      OpenedInGuiHierarchy: 1
+      _parentIx: 0
+      m_linkedSpawners: 
+      _extensions: []
+      _hasStatefulExtensions: 0
+      _statelessExtensions: []
+    - m_spawner: {fileID: 6676048195809038397}
+      m_name: Tree9_2
+      m_resourceType: 0
+      ContainerOnly: 0
+      m_prefab: {fileID: 114418, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
+      m_assetID: be878d9ea17907f4a8068678a5ce7908
+      m_assetName: Tree9_2
+      m_static: 1
+      m_successRate: 1
+      m_conformToSlope: 1
+      m_minOffset: {x: -4.71, y: -0.13, z: 12.497}
+      m_maxOffset: {x: -4.71, y: -0.13, z: 12.497}
+      m_minRotation: {x: -0, y: 0, z: 0}
+      m_maxRotation: {x: -0, y: 0, z: 0}
+      m_sameScale: 1
+      m_minScale: {x: 0.63496, y: 0.63496, z: 0.63496}
+      m_maxScale: {x: 0.63496, y: 0.63496, z: 0.63496}
+      m_brushTextures: []
+      m_brushTXIndex: 0
+      m_baseBrush:
+        m_size: 0
+        m_strength: []
+        m_brush: {fileID: 0}
+      m_opacity: 1
+      m_targetStrength: 1
+      m_terrainProtoIdx: 0
+      m_hasColliders: 0
+      m_hasRootCollider: 0
+      m_hasMeshes: 1
+      m_hasRigidBody: 0
+      m_flagLightmapStatic: 0
+      m_flagBatchingStatic: 0
+      m_flagOccludeeStatic: 0
+      m_flagOccluderStatic: 0
+      m_flagNavigationStatic: 0
+      m_flagOffMeshLinkGeneration: 0
+      m_flagReflectionProbeStatic: 0
+      m_flagMovingObject: 0
+      m_flagCanBeOptimised: 1
+      m_flagForceOptimise: 0
+      m_flagIsOutdoorObject: 1
+      m_useColliderBounds: 0
+      m_basePosition: {x: -4.71, y: -0.13, z: 12.497}
+      m_baseRotation: {x: -0, y: 0, z: 0}
+      m_baseScale: {x: 0.63496, y: 0.63496, z: 0.63496}
+      m_baseSize: {x: 18.623852, y: 22.858625, z: 15.766888}
+      m_boundsCenter: {x: -0.6987395, y: 11.429313, z: -4.7483006}
+      m_baseColliderCenter: {x: -5.1536713, y: 7.1271563, z: 7.2438455}
+      m_baseColliderUseConstScale: 1
+      m_baseColliderConstScaleAmount: 0.75
+      m_baseColliderScale: {x: 11.825401, y: 14.514313, z: 14.487691}
+      m_instancesSpawned: 26
+      m_avsID: 
+      m_avsVegetationType: 3
+      m_displayedInEditor: 0
+      OpenedInGuiHierarchy: 1
+      _parentIx: 0
+      m_linkedSpawners: 
+      _extensions: []
+      _hasStatefulExtensions: 0
+      _statelessExtensions: []
+  m_hasActiveHeightProtos: 0
+  m_hasActiveTreeProtos: 0
+  m_hasActiveGrassProtos: 0
+  m_hasActiveTextureProtos: 0
+  m_hasChildWithActiveHeightProtos: 0
+  m_hasChildWithActiveTreeProtos: 0
+  m_hasChildWithActiveGrassProtos: 0
+  m_hasChildWithActiveTextureProtos: 0
+  m_spawnOriginLocation: {x: 452.82556, y: 50, z: 172.0891}
+  m_spawnOriginNormal: {x: 0, y: 1, z: 0}
+  m_spawnOriginObjectID: 132834
+  m_spawnOriginIsTerrain: 1
+  m_spawnOriginBounds:
+    m_Center: {x: 452.82556, y: 50, z: 172.0891}
+    m_Extent: {x: 10, y: 2500, z: 10}
+  m_spawnOriginGroundTransform: {fileID: 0}
+  m_spawnAlgorithm: 0
+  m_globalSpawnJitterPct: 0.75
+  m_minInstances: 1
+  m_maxInstances: 1
+  m_instancesSpawned: 11
+  m_seedThrowRange: 20
+  m_seedThrowJitter: 1
+  m_maxSpawnRange: 20
+  m_spawnRangeShape: 0
+  m_critVirginCheckType: 2
+  m_critSpawnCollisionLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  m_critBoundsBorder: 0.27
+  m_critCheckHeightType: 3
+  m_critCheckHeight: 1
+  m_critMinSpawnHeight: 50
+  m_critMaxSpawnHeight: 650
+  m_critHeightVariance: 30
+  m_terrainTopBoundary: 650
+  m_critCheckSlopeType: 1
+  m_critCheckSlope: 1
+  m_critMinSpawnSlope: 0
+  m_critMaxSpawnSlope: 90
+  m_critSlopeVariance: 30
+  m_critCheckTextures: 0
+  m_critTextureStrength: 0
+  m_critTextureVariance: 0.1
+  m_critSelectedTextureIdx: -1
+  m_critSelectedTextureName: None
+  m_critMaxSelectedTexture: -1
+  m_critCheckMask: 0
+  m_critMaskType: 0
+  m_critMaskFractal:
+    m_seed: 0
+    m_octaves: 8
+    m_persistence: 0.65
+    m_frequency: 0.05
+    m_lacunarity: 1.5
+    m_XOffset: 0
+    m_ZOffset: 0
+    m_YOffset: 0
+  m_critMaskFractalMidpoint: 0.5
+  m_critMaskFractalRange: 0.5
+  m_critMaskImage: {fileID: 0}
+  m_critMaskInvert: 0
+  m_rangesOriginLocation: {x: 452.82556, y: 50, z: 172.0891}
+  m_rangesOriginNormal: {x: 0, y: 1, z: 0}
+  m_critMinHeight: 50
+  m_critMaxHeight: 65
+  m_critMinSlope: 0
+  m_critMaxSlope: 15
+  m_rotationAlgorithm: 0
+  m_minRotationY: 0
+  m_maxRotationY: 360
+  m_sameScale: 1
+  m_scaleToNearestInt: 0
+  m_minScaleX: 1
+  m_maxScaleX: 1
+  m_minScaleY: 0.7
+  m_maxScaleY: 1.3
+  m_minScaleZ: 0.7
+  m_maxScaleZ: 1.3
+  m_useGravity: 0
+  m_enableRotationDragUpdate: 0
+  m_autoOptimise: 0
+  m_maxSizeToOptimise: 10
+  m_minProbeGroupDistance: 100
+  m_minProbeDistance: 15
+  m_autoProbe: 1
+  m_gravity: {fileID: 0}
+  m_advUseLargeRanges: 0
+  m_advShowMouseOverHelp: 1
+  m_advShowDetailedHelp: 1
+  m_advForcePlaceAtClickLocation: 0
+  m_advAddColliderToSpawnedPrefabs: 0
+  m_advSpawnCheckOffset: 2000
+  m_showOverview: 1
+  m_showSpawnCriteria: 1
+  m_showPlacementCriteria: 1
+  m_showPrototypes: 1
+  m_showGizmos: 1
+  m_showAdvancedSettings: 1
+  m_showCritMinSpawnHeight: 1
+  m_showCritMaxSpawnHeight: 1
+  m_visualizationLocation: {x: 452.82556, y: 50, z: 172.0891}
+  m_needsVisualisationUpdate: 0
+  m_maxVisualisationDimensions: 3
+  m_visProcessLimit: 0.5
+  m_metersPerScan: 1
+  m_metersPerScanVisualisation: 4
+  m_lastSpawnedObject: {fileID: 0}
+  m_prefabUndoList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_parentsUndoList:
+  - {fileID: 0}
+  - {fileID: 0}
+  m_probeUndoList:
+  - {fileID: 0}
+  - {fileID: 0}
+  _linkedSpawnersIx: 
+  _linkedSpawnersCount: 
+  m_defaults: {fileID: 11400000, guid: 6fe71ac9b3ec00542a83797ce00ac22e, type: 2}
+  m_randomSeed: 808999
+  m_spawnToAVS: 0
+  m_nextProtoId: 0
+--- !u!114 &6676048195809038396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6676048195809038398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc9fc7d5370ef34c88124411d158384, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_undoStack:
+    m_topIndex: 7
+    m_count: 7
+    _nullableType: 1
+    _capacity: 50
+    _activeItems:
+    - m_diffs:
+        m_spawnerInstanceCount: 1
+        m_protoInstanceCounts: 0100000000000000
+        _allResourceInstanceCounts: 0100000000000000
+        _resourceInstanceCountsLengths: 01000000
+        m_heightmapWidth: 0
+        m_heightmapHeight: 0
+        _flatHeightmap: []
+        m_heightsBaseX: 0
+        m_heightsBaseY: 0
+        m_heightsWidth: 0
+        m_heightsHeight: 0
+        m_splatmapWidth: 0
+        m_splatmapHeight: 0
+        m_splatmapLayers: 0
+        _flatSplatmap: []
+        m_splatBaseX: 0
+        m_splatBaseY: 0
+        m_splatWidth: 0
+        m_splatHeight: 0
+        m_detailmapWidth: 0
+        m_detailmapHeight: 0
+        m_detailmapLayers: 0
+        m_detailDiffs: []
+        _treesAdded: []
+        _treesRemoved: []
+        m_spawner: {fileID: 6676048195809038397}
+        m_target: {fileID: 0}
+        _spawnedPrefabsArray:
+        - {fileID: 0}
+        _spawnedProbesArray: []
+        _parentsAddedArray: []
+      m_spawnedExtensions:
+      - Parent:
+          m_spawner: {fileID: 6676048195809038397}
+          m_name: House 4 and Environment
+          m_resourceType: 0
+          ContainerOnly: 1
+          m_prefab: {fileID: 0}
+          m_assetID: 
+          m_assetName: 
+          m_static: 1
+          m_successRate: 1
+          m_conformToSlope: 0
+          m_minOffset: {x: 0.4940319, y: 0, z: 2.3459682}
+          m_maxOffset: {x: 0.4940319, y: 0, z: 2.3459682}
+          m_minRotation: {x: -0, y: 0, z: 0}
+          m_maxRotation: {x: -0, y: 0, z: 0}
+          m_sameScale: 1
+          m_minScale: {x: 1, y: 1, z: 1}
+          m_maxScale: {x: 1, y: 1, z: 1}
+          m_brushTextures: []
+          m_brushTXIndex: 0
+          m_baseBrush:
+            m_size: 0
+            m_strength: []
+            m_brush: {fileID: 0}
+          m_opacity: 1
+          m_targetStrength: 1
+          m_terrainProtoIdx: 0
+          m_hasColliders: 1
+          m_hasRootCollider: 0
+          m_hasMeshes: 1
+          m_hasRigidBody: 0
+          m_flagLightmapStatic: 1
+          m_flagBatchingStatic: 1
+          m_flagOccludeeStatic: 1
+          m_flagOccluderStatic: 1
+          m_flagNavigationStatic: 1
+          m_flagOffMeshLinkGeneration: 1
+          m_flagReflectionProbeStatic: 1
+          m_flagMovingObject: 0
+          m_flagCanBeOptimised: 1
+          m_flagForceOptimise: 0
+          m_flagIsOutdoorObject: 1
+          m_useColliderBounds: 0
+          m_basePosition: {x: 0, y: 0, z: 0}
+          m_baseRotation: {x: -0, y: 0, z: 0}
+          m_baseScale: {x: 1, y: 1, z: 1}
+          m_baseSize: {x: 27.522686, y: 15.827078, z: 36.931656}
+          m_boundsCenter: {x: 0.41891098, y: 6.470774, z: -0.37649155}
+          m_baseColliderCenter: {x: 0.41891003, y: 6.470774, z: -0.37649155}
+          m_baseColliderUseConstScale: 1
+          m_baseColliderConstScaleAmount: 0.75
+          m_baseColliderScale: {x: 27.522688, y: 15.827078, z: 36.931656}
+          m_instancesSpawned: 8
+          m_avsID: 
+          m_avsVegetationType: 3
+          m_displayedInEditor: 0
+          OpenedInGuiHierarchy: 0
+          _parentIx: -1
+          m_linkedSpawners: 
+          _extensions: []
+          _hasStatefulExtensions: 0
+          _statelessExtensions:
+          - U3dtbd.gena.SetAtGroundLevelExtension, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        IsStateless: 1
+        Index: 0
+      m_actingSpawner: {fileID: 6676048195809038397}
+      m_target: {fileID: 0}
+      m_description: Single Spawn
+      m_time: 51583923
+      m_childSpawners: []
+    - m_diffs:
+        m_spawnerInstanceCount: 1
+        m_protoInstanceCounts: 0100000000000000
+        _allResourceInstanceCounts: 0100000000000000
+        _resourceInstanceCountsLengths: 01000000
+        m_heightmapWidth: 0
+        m_heightmapHeight: 0
+        _flatHeightmap: []
+        m_heightsBaseX: 0
+        m_heightsBaseY: 0
+        m_heightsWidth: 0
+        m_heightsHeight: 0
+        m_splatmapWidth: 0
+        m_splatmapHeight: 0
+        m_splatmapLayers: 0
+        _flatSplatmap: []
+        m_splatBaseX: 0
+        m_splatBaseY: 0
+        m_splatWidth: 0
+        m_splatHeight: 0
+        m_detailmapWidth: 0
+        m_detailmapHeight: 0
+        m_detailmapLayers: 0
+        m_detailDiffs: []
+        _treesAdded: []
+        _treesRemoved: []
+        m_spawner: {fileID: 6676048195809038397}
+        m_target: {fileID: 0}
+        _spawnedPrefabsArray:
+        - {fileID: 0}
+        _spawnedProbesArray: []
+        _parentsAddedArray: []
+      m_spawnedExtensions:
+      - Parent:
+          m_spawner: {fileID: 6676048195809038397}
+          m_name: House 4 and Environment
+          m_resourceType: 0
+          ContainerOnly: 1
+          m_prefab: {fileID: 0}
+          m_assetID: 
+          m_assetName: 
+          m_static: 1
+          m_successRate: 1
+          m_conformToSlope: 0
+          m_minOffset: {x: 0.4940319, y: 0, z: 2.3459682}
+          m_maxOffset: {x: 0.4940319, y: 0, z: 2.3459682}
+          m_minRotation: {x: -0, y: 0, z: 0}
+          m_maxRotation: {x: -0, y: 0, z: 0}
+          m_sameScale: 1
+          m_minScale: {x: 1, y: 1, z: 1}
+          m_maxScale: {x: 1, y: 1, z: 1}
+          m_brushTextures: []
+          m_brushTXIndex: 0
+          m_baseBrush:
+            m_size: 0
+            m_strength: []
+            m_brush: {fileID: 0}
+          m_opacity: 1
+          m_targetStrength: 1
+          m_terrainProtoIdx: 0
+          m_hasColliders: 1
+          m_hasRootCollider: 0
+          m_hasMeshes: 1
+          m_hasRigidBody: 0
+          m_flagLightmapStatic: 1
+          m_flagBatchingStatic: 1
+          m_flagOccludeeStatic: 1
+          m_flagOccluderStatic: 1
+          m_flagNavigationStatic: 1
+          m_flagOffMeshLinkGeneration: 1
+          m_flagReflectionProbeStatic: 1
+          m_flagMovingObject: 0
+          m_flagCanBeOptimised: 1
+          m_flagForceOptimise: 0
+          m_flagIsOutdoorObject: 1
+          m_useColliderBounds: 0
+          m_basePosition: {x: 0, y: 0, z: 0}
+          m_baseRotation: {x: -0, y: 0, z: 0}
+          m_baseScale: {x: 1, y: 1, z: 1}
+          m_baseSize: {x: 27.522686, y: 15.827078, z: 36.931656}
+          m_boundsCenter: {x: 0.41891098, y: 6.470774, z: -0.37649155}
+          m_baseColliderCenter: {x: 0.41891003, y: 6.470774, z: -0.37649155}
+          m_baseColliderUseConstScale: 1
+          m_baseColliderConstScaleAmount: 0.75
+          m_baseColliderScale: {x: 27.522688, y: 15.827078, z: 36.931656}
+          m_instancesSpawned: 8
+          m_avsID: 
+          m_avsVegetationType: 3
+          m_displayedInEditor: 0
+          OpenedInGuiHierarchy: 0
+          _parentIx: -1
+          m_linkedSpawners: 
+          _extensions: []
+          _hasStatefulExtensions: 0
+          _statelessExtensions:
+          - U3dtbd.gena.SetAtGroundLevelExtension, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        IsStateless: 1
+        Index: 0
+      m_actingSpawner: {fileID: 6676048195809038397}
+      m_target: {fileID: 0}
+      m_description: Single Spawn
+      m_time: 51583940
+      m_childSpawners: []
+    - m_diffs:
+        m_spawnerInstanceCount: 1
+        m_protoInstanceCounts: 0100000000000000
+        _allResourceInstanceCounts: 0100000000000000
+        _resourceInstanceCountsLengths: 01000000
+        m_heightmapWidth: 0
+        m_heightmapHeight: 0
+        _flatHeightmap: []
+        m_heightsBaseX: 0
+        m_heightsBaseY: 0
+        m_heightsWidth: 0
+        m_heightsHeight: 0
+        m_splatmapWidth: 0
+        m_splatmapHeight: 0
+        m_splatmapLayers: 0
+        _flatSplatmap: []
+        m_splatBaseX: 0
+        m_splatBaseY: 0
+        m_splatWidth: 0
+        m_splatHeight: 0
+        m_detailmapWidth: 0
+        m_detailmapHeight: 0
+        m_detailmapLayers: 0
+        m_detailDiffs: []
+        _treesAdded: []
+        _treesRemoved: []
+        m_spawner: {fileID: 6676048195809038397}
+        m_target: {fileID: 0}
+        _spawnedPrefabsArray:
+        - {fileID: 0}
+        _spawnedProbesArray: []
+        _parentsAddedArray: []
+      m_spawnedExtensions:
+      - Parent:
+          m_spawner: {fileID: 6676048195809038397}
+          m_name: House 4 and Environment
+          m_resourceType: 0
+          ContainerOnly: 1
+          m_prefab: {fileID: 0}
+          m_assetID: 
+          m_assetName: 
+          m_static: 1
+          m_successRate: 1
+          m_conformToSlope: 0
+          m_minOffset: {x: 0.4940319, y: 0, z: 2.3459682}
+          m_maxOffset: {x: 0.4940319, y: 0, z: 2.3459682}
+          m_minRotation: {x: -0, y: 0, z: 0}
+          m_maxRotation: {x: -0, y: 0, z: 0}
+          m_sameScale: 1
+          m_minScale: {x: 1, y: 1, z: 1}
+          m_maxScale: {x: 1, y: 1, z: 1}
+          m_brushTextures: []
+          m_brushTXIndex: 0
+          m_baseBrush:
+            m_size: 0
+            m_strength: []
+            m_brush: {fileID: 0}
+          m_opacity: 1
+          m_targetStrength: 1
+          m_terrainProtoIdx: 0
+          m_hasColliders: 1
+          m_hasRootCollider: 0
+          m_hasMeshes: 1
+          m_hasRigidBody: 0
+          m_flagLightmapStatic: 1
+          m_flagBatchingStatic: 1
+          m_flagOccludeeStatic: 1
+          m_flagOccluderStatic: 1
+          m_flagNavigationStatic: 1
+          m_flagOffMeshLinkGeneration: 1
+          m_flagReflectionProbeStatic: 1
+          m_flagMovingObject: 0
+          m_flagCanBeOptimised: 1
+          m_flagForceOptimise: 0
+          m_flagIsOutdoorObject: 1
+          m_useColliderBounds: 0
+          m_basePosition: {x: 0, y: 0, z: 0}
+          m_baseRotation: {x: -0, y: 0, z: 0}
+          m_baseScale: {x: 1, y: 1, z: 1}
+          m_baseSize: {x: 27.522686, y: 15.827078, z: 36.931656}
+          m_boundsCenter: {x: 0.41891098, y: 6.470774, z: -0.37649155}
+          m_baseColliderCenter: {x: 0.41891003, y: 6.470774, z: -0.37649155}
+          m_baseColliderUseConstScale: 1
+          m_baseColliderConstScaleAmount: 0.75
+          m_baseColliderScale: {x: 27.522688, y: 15.827078, z: 36.931656}
+          m_instancesSpawned: 8
+          m_avsID: 
+          m_avsVegetationType: 3
+          m_displayedInEditor: 0
+          OpenedInGuiHierarchy: 0
+          _parentIx: -1
+          m_linkedSpawners: 
+          _extensions: []
+          _hasStatefulExtensions: 0
+          _statelessExtensions:
+          - U3dtbd.gena.SetAtGroundLevelExtension, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        IsStateless: 1
+        Index: 0
+      m_actingSpawner: {fileID: 6676048195809038397}
+      m_target: {fileID: 0}
+      m_description: Single Spawn
+      m_time: 51583956
+      m_childSpawners: []
+    - m_diffs:
+        m_spawnerInstanceCount: 1
+        m_protoInstanceCounts: 0100000000000000
+        _allResourceInstanceCounts: 0100000000000000
+        _resourceInstanceCountsLengths: 01000000
+        m_heightmapWidth: 0
+        m_heightmapHeight: 0
+        _flatHeightmap: []
+        m_heightsBaseX: 0
+        m_heightsBaseY: 0
+        m_heightsWidth: 0
+        m_heightsHeight: 0
+        m_splatmapWidth: 0
+        m_splatmapHeight: 0
+        m_splatmapLayers: 0
+        _flatSplatmap: []
+        m_splatBaseX: 0
+        m_splatBaseY: 0
+        m_splatWidth: 0
+        m_splatHeight: 0
+        m_detailmapWidth: 0
+        m_detailmapHeight: 0
+        m_detailmapLayers: 0
+        m_detailDiffs: []
+        _treesAdded: []
+        _treesRemoved: []
+        m_spawner: {fileID: 6676048195809038397}
+        m_target: {fileID: 0}
+        _spawnedPrefabsArray:
+        - {fileID: 0}
+        _spawnedProbesArray: []
+        _parentsAddedArray: []
+      m_spawnedExtensions:
+      - Parent:
+          m_spawner: {fileID: 6676048195809038397}
+          m_name: House 4 and Environment
+          m_resourceType: 0
+          ContainerOnly: 1
+          m_prefab: {fileID: 0}
+          m_assetID: 
+          m_assetName: 
+          m_static: 1
+          m_successRate: 1
+          m_conformToSlope: 0
+          m_minOffset: {x: 0.4940319, y: 0, z: 2.3459682}
+          m_maxOffset: {x: 0.4940319, y: 0, z: 2.3459682}
+          m_minRotation: {x: -0, y: 0, z: 0}
+          m_maxRotation: {x: -0, y: 0, z: 0}
+          m_sameScale: 1
+          m_minScale: {x: 1, y: 1, z: 1}
+          m_maxScale: {x: 1, y: 1, z: 1}
+          m_brushTextures: []
+          m_brushTXIndex: 0
+          m_baseBrush:
+            m_size: 0
+            m_strength: []
+            m_brush: {fileID: 0}
+          m_opacity: 1
+          m_targetStrength: 1
+          m_terrainProtoIdx: 0
+          m_hasColliders: 1
+          m_hasRootCollider: 0
+          m_hasMeshes: 1
+          m_hasRigidBody: 0
+          m_flagLightmapStatic: 1
+          m_flagBatchingStatic: 1
+          m_flagOccludeeStatic: 1
+          m_flagOccluderStatic: 1
+          m_flagNavigationStatic: 1
+          m_flagOffMeshLinkGeneration: 1
+          m_flagReflectionProbeStatic: 1
+          m_flagMovingObject: 0
+          m_flagCanBeOptimised: 1
+          m_flagForceOptimise: 0
+          m_flagIsOutdoorObject: 1
+          m_useColliderBounds: 0
+          m_basePosition: {x: 0, y: 0, z: 0}
+          m_baseRotation: {x: -0, y: 0, z: 0}
+          m_baseScale: {x: 1, y: 1, z: 1}
+          m_baseSize: {x: 27.522686, y: 15.827078, z: 36.931656}
+          m_boundsCenter: {x: 0.41891098, y: 6.470774, z: -0.37649155}
+          m_baseColliderCenter: {x: 0.41891003, y: 6.470774, z: -0.37649155}
+          m_baseColliderUseConstScale: 1
+          m_baseColliderConstScaleAmount: 0.75
+          m_baseColliderScale: {x: 27.522688, y: 15.827078, z: 36.931656}
+          m_instancesSpawned: 8
+          m_avsID: 
+          m_avsVegetationType: 3
+          m_displayedInEditor: 0
+          OpenedInGuiHierarchy: 0
+          _parentIx: -1
+          m_linkedSpawners: 
+          _extensions: []
+          _hasStatefulExtensions: 0
+          _statelessExtensions:
+          - U3dtbd.gena.SetAtGroundLevelExtension, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        IsStateless: 1
+        Index: 0
+      m_actingSpawner: {fileID: 6676048195809038397}
+      m_target: {fileID: 0}
+      m_description: Single Spawn
+      m_time: 51583965
+      m_childSpawners: []
+    - m_diffs:
+        m_spawnerInstanceCount: 1
+        m_protoInstanceCounts: 0100000000000000
+        _allResourceInstanceCounts: 0100000000000000
+        _resourceInstanceCountsLengths: 01000000
+        m_heightmapWidth: 0
+        m_heightmapHeight: 0
+        _flatHeightmap: []
+        m_heightsBaseX: 0
+        m_heightsBaseY: 0
+        m_heightsWidth: 0
+        m_heightsHeight: 0
+        m_splatmapWidth: 0
+        m_splatmapHeight: 0
+        m_splatmapLayers: 0
+        _flatSplatmap: []
+        m_splatBaseX: 0
+        m_splatBaseY: 0
+        m_splatWidth: 0
+        m_splatHeight: 0
+        m_detailmapWidth: 0
+        m_detailmapHeight: 0
+        m_detailmapLayers: 0
+        m_detailDiffs: []
+        _treesAdded: []
+        _treesRemoved: []
+        m_spawner: {fileID: 6676048195809038397}
+        m_target: {fileID: 0}
+        _spawnedPrefabsArray:
+        - {fileID: 0}
+        _spawnedProbesArray: []
+        _parentsAddedArray: []
+      m_spawnedExtensions:
+      - Parent:
+          m_spawner: {fileID: 6676048195809038397}
+          m_name: House 4 and Environment
+          m_resourceType: 0
+          ContainerOnly: 1
+          m_prefab: {fileID: 0}
+          m_assetID: 
+          m_assetName: 
+          m_static: 1
+          m_successRate: 1
+          m_conformToSlope: 0
+          m_minOffset: {x: 0.4940319, y: 0, z: 2.3459682}
+          m_maxOffset: {x: 0.4940319, y: 0, z: 2.3459682}
+          m_minRotation: {x: -0, y: 0, z: 0}
+          m_maxRotation: {x: -0, y: 0, z: 0}
+          m_sameScale: 1
+          m_minScale: {x: 1, y: 1, z: 1}
+          m_maxScale: {x: 1, y: 1, z: 1}
+          m_brushTextures: []
+          m_brushTXIndex: 0
+          m_baseBrush:
+            m_size: 0
+            m_strength: []
+            m_brush: {fileID: 0}
+          m_opacity: 1
+          m_targetStrength: 1
+          m_terrainProtoIdx: 0
+          m_hasColliders: 1
+          m_hasRootCollider: 0
+          m_hasMeshes: 1
+          m_hasRigidBody: 0
+          m_flagLightmapStatic: 1
+          m_flagBatchingStatic: 1
+          m_flagOccludeeStatic: 1
+          m_flagOccluderStatic: 1
+          m_flagNavigationStatic: 1
+          m_flagOffMeshLinkGeneration: 1
+          m_flagReflectionProbeStatic: 1
+          m_flagMovingObject: 0
+          m_flagCanBeOptimised: 1
+          m_flagForceOptimise: 0
+          m_flagIsOutdoorObject: 1
+          m_useColliderBounds: 0
+          m_basePosition: {x: 0, y: 0, z: 0}
+          m_baseRotation: {x: -0, y: 0, z: 0}
+          m_baseScale: {x: 1, y: 1, z: 1}
+          m_baseSize: {x: 27.522686, y: 15.827078, z: 36.931656}
+          m_boundsCenter: {x: 0.41891098, y: 6.470774, z: -0.37649155}
+          m_baseColliderCenter: {x: 0.41891003, y: 6.470774, z: -0.37649155}
+          m_baseColliderUseConstScale: 1
+          m_baseColliderConstScaleAmount: 0.75
+          m_baseColliderScale: {x: 27.522688, y: 15.827078, z: 36.931656}
+          m_instancesSpawned: 10
+          m_avsID: 
+          m_avsVegetationType: 3
+          m_displayedInEditor: 0
+          OpenedInGuiHierarchy: 0
+          _parentIx: -1
+          m_linkedSpawners: 
+          _extensions: []
+          _hasStatefulExtensions: 0
+          _statelessExtensions:
+          - U3dtbd.gena.SetAtGroundLevelExtension, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        IsStateless: 1
+        Index: 0
+      m_actingSpawner: {fileID: 6676048195809038397}
+      m_target: {fileID: 0}
+      m_description: Single Spawn
+      m_time: 51586158
+      m_childSpawners: []
+    - m_diffs:
+        m_spawnerInstanceCount: 1
+        m_protoInstanceCounts: 0100000000000000
+        _allResourceInstanceCounts: 0100000000000000
+        _resourceInstanceCountsLengths: 01000000
+        m_heightmapWidth: 0
+        m_heightmapHeight: 0
+        _flatHeightmap: []
+        m_heightsBaseX: 0
+        m_heightsBaseY: 0
+        m_heightsWidth: 0
+        m_heightsHeight: 0
+        m_splatmapWidth: 0
+        m_splatmapHeight: 0
+        m_splatmapLayers: 0
+        _flatSplatmap: []
+        m_splatBaseX: 0
+        m_splatBaseY: 0
+        m_splatWidth: 0
+        m_splatHeight: 0
+        m_detailmapWidth: 0
+        m_detailmapHeight: 0
+        m_detailmapLayers: 0
+        m_detailDiffs: []
+        _treesAdded: []
+        _treesRemoved: []
+        m_spawner: {fileID: 6676048195809038397}
+        m_target: {fileID: 0}
+        _spawnedPrefabsArray:
+        - {fileID: 0}
+        _spawnedProbesArray: []
+        _parentsAddedArray: []
+      m_spawnedExtensions:
+      - Parent:
+          m_spawner: {fileID: 6676048195809038397}
+          m_name: House 4 and Environment
+          m_resourceType: 0
+          ContainerOnly: 1
+          m_prefab: {fileID: 0}
+          m_assetID: 
+          m_assetName: 
+          m_static: 1
+          m_successRate: 1
+          m_conformToSlope: 0
+          m_minOffset: {x: 0.4940319, y: 0, z: 2.3459682}
+          m_maxOffset: {x: 0.4940319, y: 0, z: 2.3459682}
+          m_minRotation: {x: -0, y: 0, z: 0}
+          m_maxRotation: {x: -0, y: 0, z: 0}
+          m_sameScale: 1
+          m_minScale: {x: 1, y: 1, z: 1}
+          m_maxScale: {x: 1, y: 1, z: 1}
+          m_brushTextures: []
+          m_brushTXIndex: 0
+          m_baseBrush:
+            m_size: 0
+            m_strength: []
+            m_brush: {fileID: 0}
+          m_opacity: 1
+          m_targetStrength: 1
+          m_terrainProtoIdx: 0
+          m_hasColliders: 1
+          m_hasRootCollider: 0
+          m_hasMeshes: 1
+          m_hasRigidBody: 0
+          m_flagLightmapStatic: 1
+          m_flagBatchingStatic: 1
+          m_flagOccludeeStatic: 1
+          m_flagOccluderStatic: 1
+          m_flagNavigationStatic: 1
+          m_flagOffMeshLinkGeneration: 1
+          m_flagReflectionProbeStatic: 1
+          m_flagMovingObject: 0
+          m_flagCanBeOptimised: 1
+          m_flagForceOptimise: 0
+          m_flagIsOutdoorObject: 1
+          m_useColliderBounds: 0
+          m_basePosition: {x: 0, y: 0, z: 0}
+          m_baseRotation: {x: -0, y: 0, z: 0}
+          m_baseScale: {x: 1, y: 1, z: 1}
+          m_baseSize: {x: 27.522686, y: 15.827078, z: 36.931656}
+          m_boundsCenter: {x: 0.41891098, y: 6.470774, z: -0.37649155}
+          m_baseColliderCenter: {x: 0.41891003, y: 6.470774, z: -0.37649155}
+          m_baseColliderUseConstScale: 1
+          m_baseColliderConstScaleAmount: 0.75
+          m_baseColliderScale: {x: 27.522688, y: 15.827078, z: 36.931656}
+          m_instancesSpawned: 10
+          m_avsID: 
+          m_avsVegetationType: 3
+          m_displayedInEditor: 0
+          OpenedInGuiHierarchy: 0
+          _parentIx: -1
+          m_linkedSpawners: 
+          _extensions: []
+          _hasStatefulExtensions: 0
+          _statelessExtensions:
+          - U3dtbd.gena.SetAtGroundLevelExtension, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        IsStateless: 1
+        Index: 0
+      m_actingSpawner: {fileID: 6676048195809038397}
+      m_target: {fileID: 0}
+      m_description: Single Spawn
+      m_time: 51587107
+      m_childSpawners: []
+    - m_diffs:
+        m_spawnerInstanceCount: 1
+        m_protoInstanceCounts: 0100000000000000
+        _allResourceInstanceCounts: 0100000000000000
+        _resourceInstanceCountsLengths: 01000000
+        m_heightmapWidth: 0
+        m_heightmapHeight: 0
+        _flatHeightmap: []
+        m_heightsBaseX: 0
+        m_heightsBaseY: 0
+        m_heightsWidth: 0
+        m_heightsHeight: 0
+        m_splatmapWidth: 0
+        m_splatmapHeight: 0
+        m_splatmapLayers: 0
+        _flatSplatmap: []
+        m_splatBaseX: 0
+        m_splatBaseY: 0
+        m_splatWidth: 0
+        m_splatHeight: 0
+        m_detailmapWidth: 0
+        m_detailmapHeight: 0
+        m_detailmapLayers: 0
+        m_detailDiffs: []
+        _treesAdded: []
+        _treesRemoved: []
+        m_spawner: {fileID: 6676048195809038397}
+        m_target: {fileID: 0}
+        _spawnedPrefabsArray:
+        - {fileID: 0}
+        _spawnedProbesArray: []
+        _parentsAddedArray: []
+      m_spawnedExtensions:
+      - Parent:
+          m_spawner: {fileID: 6676048195809038397}
+          m_name: House 4 and Environment
+          m_resourceType: 0
+          ContainerOnly: 1
+          m_prefab: {fileID: 0}
+          m_assetID: 
+          m_assetName: 
+          m_static: 1
+          m_successRate: 1
+          m_conformToSlope: 0
+          m_minOffset: {x: 0.4940319, y: 0, z: 2.3459682}
+          m_maxOffset: {x: 0.4940319, y: 0, z: 2.3459682}
+          m_minRotation: {x: -0, y: 0, z: 0}
+          m_maxRotation: {x: -0, y: 0, z: 0}
+          m_sameScale: 1
+          m_minScale: {x: 1, y: 1, z: 1}
+          m_maxScale: {x: 1, y: 1, z: 1}
+          m_brushTextures: []
+          m_brushTXIndex: 0
+          m_baseBrush:
+            m_size: 0
+            m_strength: []
+            m_brush: {fileID: 0}
+          m_opacity: 1
+          m_targetStrength: 1
+          m_terrainProtoIdx: 0
+          m_hasColliders: 1
+          m_hasRootCollider: 0
+          m_hasMeshes: 1
+          m_hasRigidBody: 0
+          m_flagLightmapStatic: 1
+          m_flagBatchingStatic: 1
+          m_flagOccludeeStatic: 1
+          m_flagOccluderStatic: 1
+          m_flagNavigationStatic: 1
+          m_flagOffMeshLinkGeneration: 1
+          m_flagReflectionProbeStatic: 1
+          m_flagMovingObject: 0
+          m_flagCanBeOptimised: 1
+          m_flagForceOptimise: 0
+          m_flagIsOutdoorObject: 1
+          m_useColliderBounds: 0
+          m_basePosition: {x: 0, y: 0, z: 0}
+          m_baseRotation: {x: -0, y: 0, z: 0}
+          m_baseScale: {x: 1, y: 1, z: 1}
+          m_baseSize: {x: 27.522686, y: 15.827078, z: 36.931656}
+          m_boundsCenter: {x: 0.41891098, y: 6.470774, z: -0.37649155}
+          m_baseColliderCenter: {x: 0.41891003, y: 6.470774, z: -0.37649155}
+          m_baseColliderUseConstScale: 1
+          m_baseColliderConstScaleAmount: 0.75
+          m_baseColliderScale: {x: 27.522688, y: 15.827078, z: 36.931656}
+          m_instancesSpawned: 11
+          m_avsID: 
+          m_avsVegetationType: 3
+          m_displayedInEditor: 0
+          OpenedInGuiHierarchy: 0
+          _parentIx: -1
+          m_linkedSpawners: 
+          _extensions: []
+          _hasStatefulExtensions: 0
+          _statelessExtensions:
+          - U3dtbd.gena.SetAtGroundLevelExtension, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        IsStateless: 1
+        Index: 0
+      m_actingSpawner: {fileID: 6676048195809038397}
+      m_target: {fileID: 0}
+      m_description: Single Spawn
+      m_time: 51587163
+      m_childSpawners: []
