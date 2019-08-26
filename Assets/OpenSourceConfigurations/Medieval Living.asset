@@ -21,333 +21,761 @@ MonoBehaviour:
   m_detailPrototypes: []
   m_treePrototypes: []
   m_gameObjectPrototypes:
-  - m_name: House 4 With Environment
+  - m_name: House 4 with environment
     m_instances:
-    - m_name: 
-      m_desktopPrefab: {fileID: 2451065824665034309, guid: d68738c5deb9fe64bb84bf64c5ed580a,
+    - m_name: House 4
+      m_desktopPrefab: {fileID: 8181070112324583455, guid: 62046765679b1c74dbc104a8c3bfe2cc,
         type: 3}
       m_desktopPrefabFileName: 
-      m_mobilePrefab: {fileID: 0}
-      m_mobilePrefabFileName: 
-      m_minInstances: 1
-      m_maxInstances: 2
-      m_failureRate: 0
-      m_minSpawnOffsetX: 0
-      m_maxSpawnOffsetX: 0
-      m_minSpawnOffsetY: 0
-      m_maxSpawnOffsetY: 0
-      m_minSpawnOffsetZ: 0
-      m_maxSpawnOffsetZ: 0
-      m_rotateToSlope: 0
-      m_minRotationOffsetX: 0
-      m_maxRotationOffsetX: 0
-      m_minRotationOffsetY: -180
-      m_maxRotationOffsetY: 180
-      m_minRotationOffsetZ: 0
-      m_maxRotationOffsetZ: 0
-      m_useParentScale: 1
-      m_minScale: 1
-      m_maxScale: 1
-      m_scaleByDistance:
-        serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 0
-        m_PostInfinity: 0
-        m_RotationOrder: 0
-      m_localBounds: 0
-      m_virginTerrain: 1
-      m_extParam: 
-    m_dna:
-      m_width: 20
-      m_height: 20
-      m_boundsRadius: 10
-      m_seedThrow: 50
-      m_minScale: 1
-      m_maxScale: 1
-      m_rndScaleInfluence: 0
-      m_extParam: nograss
-      m_protoIdx: 0
-    m_spawnCriteria:
-    - m_name: 
-      m_checkType: 1
-      m_virginTerrain: 1
-      m_checkHeight: 1
-      m_minHeight: 2
-      m_maxHeight: 500
-      m_heightFitness:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        - serializedVersion: 3
-          time: 0.752724
-          value: 0.86793315
-          inSlope: -0.3548262
-          outSlope: -0.3548262
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.3307807
-        - serializedVersion: 3
-          time: 0.9985962
-          value: 0.40000153
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 0
-      m_checkSlope: 1
-      m_minSlope: 0
-      m_maxSlope: 7
-      m_slopeFitness:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        - serializedVersion: 3
-          time: 0.2396065
-          value: 0.508673
-          inSlope: -1.2870274
-          outSlope: -1.2870274
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        - serializedVersion: 3
-          time: 1.0027466
-          value: 0.1347351
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 0
-      m_checkProximity: 0
-      m_proximityTag: 
-      m_minProximity: 0
-      m_maxProximity: 0
-      m_proximityFitness:
-        serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 0
-        m_PostInfinity: 0
-        m_RotationOrder: 0
-      m_checkTexture: 0
-      m_matchingTextures: 
-      m_isActive: 1
-    m_spawnExtensions: []
-    m_canSpawnAsTree: 0
-  - m_name: Blacksmith
-    m_instances:
-    - m_name: Blacksmith
-      m_desktopPrefab: {fileID: 1171425090561932527, guid: ad88a856da0c18046901ce5a6d53daf9,
+      m_mobilePrefab: {fileID: 8181070112324583455, guid: 62046765679b1c74dbc104a8c3bfe2cc,
         type: 3}
-      m_desktopPrefabFileName: 
-      m_mobilePrefab: {fileID: 0}
       m_mobilePrefabFileName: 
       m_minInstances: 1
       m_maxInstances: 1
       m_failureRate: 0
-      m_minSpawnOffsetX: 0
-      m_maxSpawnOffsetX: 0
+      m_minSpawnOffsetX: -0.41891098
+      m_maxSpawnOffsetX: -0.41891098
       m_minSpawnOffsetY: 0
       m_maxSpawnOffsetY: 0
-      m_minSpawnOffsetZ: 0
-      m_maxSpawnOffsetZ: 0
+      m_minSpawnOffsetZ: 0.37649155
+      m_maxSpawnOffsetZ: 0.37649155
       m_rotateToSlope: 0
-      m_minRotationOffsetX: 0
-      m_maxRotationOffsetX: 0
-      m_minRotationOffsetY: -180
-      m_maxRotationOffsetY: 180
+      m_minRotationOffsetX: -0
+      m_maxRotationOffsetX: -0
+      m_minRotationOffsetY: 0
+      m_maxRotationOffsetY: 0
       m_minRotationOffsetZ: 0
       m_maxRotationOffsetZ: 0
-      m_useParentScale: 1
+      m_useParentScale: 0
       m_minScale: 1
       m_maxScale: 1
       m_scaleByDistance:
         serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 0
-        m_PostInfinity: 0
-        m_RotationOrder: 0
-      m_localBounds: 0
-      m_virginTerrain: 1
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_localBounds: 15.091291
+      m_virginTerrain: 0
       m_extParam: 
-    m_dna:
-      m_width: 20
-      m_height: 20
-      m_boundsRadius: 15
-      m_seedThrow: 50
-      m_minScale: 1
-      m_maxScale: 1
-      m_rndScaleInfluence: 0
-      m_extParam: nograss
-      m_protoIdx: 0
-    m_spawnCriteria:
-    - m_name: 
-      m_checkType: 1
-      m_virginTerrain: 1
-      m_checkHeight: 1
-      m_minHeight: 2
-      m_maxHeight: 500
-      m_heightFitness:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        - serializedVersion: 3
-          time: 0.752724
-          value: 0.86793315
-          inSlope: -0.3548262
-          outSlope: -0.3548262
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.3307807
-        - serializedVersion: 3
-          time: 0.9985962
-          value: 0.40000153
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 0
-      m_checkSlope: 1
-      m_minSlope: 0
-      m_maxSlope: 7
-      m_slopeFitness:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        - serializedVersion: 3
-          time: 0.2396065
-          value: 0.508673
-          inSlope: -1.2870274
-          outSlope: -1.2870274
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        - serializedVersion: 3
-          time: 1.0027466
-          value: 0.1347351
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 0
-      m_checkProximity: 0
-      m_proximityTag: 
-      m_minProximity: 0
-      m_maxProximity: 0
-      m_proximityFitness:
-        serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 0
-        m_PostInfinity: 0
-        m_RotationOrder: 0
-      m_checkTexture: 0
-      m_matchingTextures: 
-      m_isActive: 1
-    m_spawnExtensions: []
-    m_canSpawnAsTree: 0
-  - m_name: Tavern
-    m_instances:
-    - m_name: Pub
-      m_desktopPrefab: {fileID: 3597266317724407720, guid: 7c28b5279746bbc4a80c925ef32be917,
+    - m_name: Well
+      m_desktopPrefab: {fileID: 55386403788949067, guid: 34b24e4c4ad583a4393991b3936c0cb1,
         type: 3}
       m_desktopPrefabFileName: 
-      m_mobilePrefab: {fileID: 0}
+      m_mobilePrefab: {fileID: 55386403788949067, guid: 34b24e4c4ad583a4393991b3936c0cb1,
+        type: 3}
       m_mobilePrefabFileName: 
-      m_minInstances: 0
+      m_minInstances: 1
       m_maxInstances: 1
       m_failureRate: 0
-      m_minSpawnOffsetX: 0
-      m_maxSpawnOffsetX: 0
-      m_minSpawnOffsetY: 0
-      m_maxSpawnOffsetY: 0
-      m_minSpawnOffsetZ: 0
-      m_maxSpawnOffsetZ: 0
+      m_minSpawnOffsetX: -0.07677513
+      m_maxSpawnOffsetX: -0.07677513
+      m_minSpawnOffsetY: 1.0073073
+      m_maxSpawnOffsetY: 1.0073073
+      m_minSpawnOffsetZ: 13.476492
+      m_maxSpawnOffsetZ: 13.476492
       m_rotateToSlope: 0
-      m_minRotationOffsetX: 0
-      m_maxRotationOffsetX: 0
-      m_minRotationOffsetY: -180
-      m_maxRotationOffsetY: 180
+      m_minRotationOffsetX: -0.0000043257114
+      m_maxRotationOffsetX: -0.0000043257114
+      m_minRotationOffsetY: 0
+      m_maxRotationOffsetY: 0
       m_minRotationOffsetZ: 0
       m_maxRotationOffsetZ: 0
-      m_useParentScale: 1
+      m_useParentScale: 0
+      m_minScale: 53.44535
+      m_maxScale: 53.44535
+      m_scaleByDistance:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_localBounds: 0.039358404
+      m_virginTerrain: 0
+      m_extParam: 
+    - m_name: Cart
+      m_desktopPrefab: {fileID: 3144548681290525853, guid: ec9d32322487ffa449de3b24d63c53c4,
+        type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefab: {fileID: 3144548681290525853, guid: ec9d32322487ffa449de3b24d63c53c4,
+        type: 3}
+      m_mobilePrefabFileName: 
+      m_minInstances: 1
+      m_maxInstances: 1
+      m_failureRate: 0
+      m_minSpawnOffsetX: 7.8917913
+      m_maxSpawnOffsetX: 7.8917913
+      m_minSpawnOffsetY: -0.103140146
+      m_maxSpawnOffsetY: -0.103140146
+      m_minSpawnOffsetZ: 0.82652754
+      m_maxSpawnOffsetZ: 0.82652754
+      m_rotateToSlope: 1
+      m_minRotationOffsetX: 3.289817
+      m_maxRotationOffsetX: 3.289817
+      m_minRotationOffsetY: 76.98551
+      m_maxRotationOffsetY: 76.98551
+      m_minRotationOffsetZ: 18.784086
+      m_maxRotationOffsetZ: 18.784086
+      m_useParentScale: 0
       m_minScale: 1
       m_maxScale: 1
       m_scaleByDistance:
         serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 0
-        m_PostInfinity: 0
-        m_RotationOrder: 0
-      m_localBounds: 0
-      m_virginTerrain: 1
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_localBounds: 2.771623
+      m_virginTerrain: 0
+      m_extParam: 
+    - m_name: Wheel Barrow
+      m_desktopPrefab: {fileID: 6062552572539872108, guid: 1d8a79c351b2b5f4ba21b4c898466b5f,
+        type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefab: {fileID: 6062552572539872108, guid: 1d8a79c351b2b5f4ba21b4c898466b5f,
+        type: 3}
+      m_mobilePrefabFileName: 
+      m_minInstances: 1
+      m_maxInstances: 1
+      m_failureRate: 0
+      m_minSpawnOffsetX: 1.061089
+      m_maxSpawnOffsetX: 1.061089
+      m_minSpawnOffsetY: 0.141
+      m_maxSpawnOffsetY: 0.141
+      m_minSpawnOffsetZ: -5.1539674
+      m_maxSpawnOffsetZ: -5.1539674
+      m_rotateToSlope: 1
+      m_minRotationOffsetX: 335.8703
+      m_maxRotationOffsetX: 335.8703
+      m_minRotationOffsetY: 180
+      m_maxRotationOffsetY: 180
+      m_minRotationOffsetZ: 180
+      m_maxRotationOffsetZ: 180
+      m_useParentScale: 0
+      m_minScale: 100.000015
+      m_maxScale: 100.000015
+      m_scaleByDistance:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_localBounds: 0.0100504765
+      m_virginTerrain: 0
+      m_extParam: 
+    - m_name: Bench
+      m_desktopPrefab: {fileID: 3874107515330058452, guid: dc06476965e0b8d4d8f357c3d71c630a,
+        type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefab: {fileID: 3874107515330058452, guid: dc06476965e0b8d4d8f357c3d71c630a,
+        type: 3}
+      m_mobilePrefabFileName: 
+      m_minInstances: 1
+      m_maxInstances: 1
+      m_failureRate: 0
+      m_minSpawnOffsetX: 5.5795918
+      m_maxSpawnOffsetX: 5.5795918
+      m_minSpawnOffsetY: 0.3896694
+      m_maxSpawnOffsetY: 0.3896694
+      m_minSpawnOffsetZ: 3.5452886
+      m_maxSpawnOffsetZ: 3.5452886
+      m_rotateToSlope: 1
+      m_minRotationOffsetX: -0
+      m_maxRotationOffsetX: -0
+      m_minRotationOffsetY: 0
+      m_maxRotationOffsetY: 0
+      m_minRotationOffsetZ: 0
+      m_maxRotationOffsetZ: 0
+      m_useParentScale: 0
+      m_minScale: 110
+      m_maxScale: 110
+      m_scaleByDistance:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_localBounds: 0.015269674
+      m_virginTerrain: 0
+      m_extParam: 
+    - m_name: Bench
+      m_desktopPrefab: {fileID: 3874107515330058452, guid: dc06476965e0b8d4d8f357c3d71c630a,
+        type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefab: {fileID: 3874107515330058452, guid: dc06476965e0b8d4d8f357c3d71c630a,
+        type: 3}
+      m_mobilePrefabFileName: 
+      m_minInstances: 1
+      m_maxInstances: 1
+      m_failureRate: 0
+      m_minSpawnOffsetX: 3.341089
+      m_maxSpawnOffsetX: 3.341089
+      m_minSpawnOffsetY: 0.3896694
+      m_maxSpawnOffsetY: 0.3896694
+      m_minSpawnOffsetZ: 3.4864914
+      m_maxSpawnOffsetZ: 3.4864914
+      m_rotateToSlope: 1
+      m_minRotationOffsetX: -0
+      m_maxRotationOffsetX: -0
+      m_minRotationOffsetY: 0
+      m_maxRotationOffsetY: 0
+      m_minRotationOffsetZ: 0
+      m_maxRotationOffsetZ: 0
+      m_useParentScale: 0
+      m_minScale: 110
+      m_maxScale: 110
+      m_scaleByDistance:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_localBounds: 0.015269674
+      m_virginTerrain: 0
+      m_extParam: 
+    - m_name: Bench
+      m_desktopPrefab: {fileID: 3874107515330058452, guid: dc06476965e0b8d4d8f357c3d71c630a,
+        type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefab: {fileID: 3874107515330058452, guid: dc06476965e0b8d4d8f357c3d71c630a,
+        type: 3}
+      m_mobilePrefabFileName: 
+      m_minInstances: 1
+      m_maxInstances: 1
+      m_failureRate: 0
+      m_minSpawnOffsetX: -3.898911
+      m_maxSpawnOffsetX: -3.898911
+      m_minSpawnOffsetY: 0.3896694
+      m_maxSpawnOffsetY: 0.3896694
+      m_minSpawnOffsetZ: 3.4764915
+      m_maxSpawnOffsetZ: 3.4764915
+      m_rotateToSlope: 1
+      m_minRotationOffsetX: -0
+      m_maxRotationOffsetX: -0
+      m_minRotationOffsetY: 0
+      m_maxRotationOffsetY: 0
+      m_minRotationOffsetZ: 0
+      m_maxRotationOffsetZ: 0
+      m_useParentScale: 0
+      m_minScale: 110
+      m_maxScale: 110
+      m_scaleByDistance:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_localBounds: 0.015269672
+      m_virginTerrain: 0
+      m_extParam: 
+    - m_name: Bench
+      m_desktopPrefab: {fileID: 3874107515330058452, guid: dc06476965e0b8d4d8f357c3d71c630a,
+        type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefab: {fileID: 3874107515330058452, guid: dc06476965e0b8d4d8f357c3d71c630a,
+        type: 3}
+      m_mobilePrefabFileName: 
+      m_minInstances: 1
+      m_maxInstances: 1
+      m_failureRate: 0
+      m_minSpawnOffsetX: -5.916911
+      m_maxSpawnOffsetX: -5.916911
+      m_minSpawnOffsetY: 0.3896694
+      m_maxSpawnOffsetY: 0.3896694
+      m_minSpawnOffsetZ: 3.5534916
+      m_maxSpawnOffsetZ: 3.5534916
+      m_rotateToSlope: 1
+      m_minRotationOffsetX: -0
+      m_maxRotationOffsetX: -0
+      m_minRotationOffsetY: 0
+      m_maxRotationOffsetY: 0
+      m_minRotationOffsetZ: 0
+      m_maxRotationOffsetZ: 0
+      m_useParentScale: 0
+      m_minScale: 110
+      m_maxScale: 110
+      m_scaleByDistance:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_localBounds: 0.015269674
+      m_virginTerrain: 0
+      m_extParam: 
+    - m_name: Medium Rock Grouping
+      m_desktopPrefab: {fileID: 2272598138716836751, guid: dd358e9dbaec7324c8330496b7c2a8ef,
+        type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefab: {fileID: 2272598138716836751, guid: dd358e9dbaec7324c8330496b7c2a8ef,
+        type: 3}
+      m_mobilePrefabFileName: 
+      m_minInstances: 1
+      m_maxInstances: 1
+      m_failureRate: 0
+      m_minSpawnOffsetX: 6.8581686
+      m_maxSpawnOffsetX: 6.8581686
+      m_minSpawnOffsetY: -0.69
+      m_maxSpawnOffsetY: -0.69
+      m_minSpawnOffsetZ: 12.219402
+      m_maxSpawnOffsetZ: 12.219402
+      m_rotateToSlope: 1
+      m_minRotationOffsetX: -0
+      m_maxRotationOffsetX: -0
+      m_minRotationOffsetY: 0
+      m_maxRotationOffsetY: 0
+      m_minRotationOffsetZ: 0
+      m_maxRotationOffsetZ: 0
+      m_useParentScale: 0
+      m_minScale: 1
+      m_maxScale: 1
+      m_scaleByDistance:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_localBounds: 8.521427
+      m_virginTerrain: 0
+      m_extParam: 
+    - m_name: Medium Rock Grouping
+      m_desktopPrefab: {fileID: 2272598138716836751, guid: dd358e9dbaec7324c8330496b7c2a8ef,
+        type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefab: {fileID: 2272598138716836751, guid: dd358e9dbaec7324c8330496b7c2a8ef,
+        type: 3}
+      m_mobilePrefabFileName: 
+      m_minInstances: 1
+      m_maxInstances: 1
+      m_failureRate: 0
+      m_minSpawnOffsetX: -13.390911
+      m_maxSpawnOffsetX: -13.390911
+      m_minSpawnOffsetY: 0.0099655
+      m_maxSpawnOffsetY: 0.0099655
+      m_minSpawnOffsetZ: -6.3348083
+      m_maxSpawnOffsetZ: -6.3348083
+      m_rotateToSlope: 1
+      m_minRotationOffsetX: -0
+      m_maxRotationOffsetX: -0
+      m_minRotationOffsetY: 136.77399
+      m_maxRotationOffsetY: 136.77399
+      m_minRotationOffsetZ: -0
+      m_maxRotationOffsetZ: -0
+      m_useParentScale: 0
+      m_minScale: 0.34454024
+      m_maxScale: 0.34454024
+      m_scaleByDistance:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_localBounds: 9.5787325
+      m_virginTerrain: 0
+      m_extParam: 
+    - m_name: Medium Rock Grouping
+      m_desktopPrefab: {fileID: 2272598138716836751, guid: dd358e9dbaec7324c8330496b7c2a8ef,
+        type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefab: {fileID: 2272598138716836751, guid: dd358e9dbaec7324c8330496b7c2a8ef,
+        type: 3}
+      m_mobilePrefabFileName: 
+      m_minInstances: 1
+      m_maxInstances: 1
+      m_failureRate: 0
+      m_minSpawnOffsetX: -11.8989105
+      m_maxSpawnOffsetX: -11.8989105
+      m_minSpawnOffsetY: 0.009965509
+      m_maxSpawnOffsetY: 0.009965509
+      m_minSpawnOffsetZ: -4.3135085
+      m_maxSpawnOffsetZ: -4.3135085
+      m_rotateToSlope: 1
+      m_minRotationOffsetX: 0
+      m_maxRotationOffsetX: 0
+      m_minRotationOffsetY: 209.68997
+      m_maxRotationOffsetY: 209.68997
+      m_minRotationOffsetZ: 0
+      m_maxRotationOffsetZ: 0
+      m_useParentScale: 0
+      m_minScale: 0.34453988
+      m_maxScale: 0.34453988
+      m_scaleByDistance:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_localBounds: 9.347664
+      m_virginTerrain: 0
+      m_extParam: 
+    - m_name: Tree9_5
+      m_desktopPrefab: {fileID: 114418, guid: 9b8fc966f95ea9c4194dc091fc40b478, type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefab: {fileID: 114418, guid: 9b8fc966f95ea9c4194dc091fc40b478, type: 3}
+      m_mobilePrefabFileName: 
+      m_minInstances: 1
+      m_maxInstances: 1
+      m_failureRate: 0
+      m_minSpawnOffsetX: 2.743989
+      m_maxSpawnOffsetX: 2.743989
+      m_minSpawnOffsetY: -0.09
+      m_maxSpawnOffsetY: -0.09
+      m_minSpawnOffsetZ: -15.132508
+      m_maxSpawnOffsetZ: -15.132508
+      m_rotateToSlope: 1
+      m_minRotationOffsetX: -0
+      m_maxRotationOffsetX: -0
+      m_minRotationOffsetY: 0
+      m_maxRotationOffsetY: 0
+      m_minRotationOffsetZ: 0
+      m_maxRotationOffsetZ: 0
+      m_useParentScale: 0
+      m_minScale: 0.45836
+      m_maxScale: 0.45836
+      m_scaleByDistance:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_localBounds: 18.68833
+      m_virginTerrain: 0
+      m_extParam: 
+    - m_name: Tree9_3
+      m_desktopPrefab: {fileID: 114418, guid: 8b2d47fdc2e25ac4f9721480a68bbefa, type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefab: {fileID: 114418, guid: 8b2d47fdc2e25ac4f9721480a68bbefa, type: 3}
+      m_mobilePrefabFileName: 
+      m_minInstances: 1
+      m_maxInstances: 1
+      m_failureRate: 0
+      m_minSpawnOffsetX: 9.599089
+      m_maxSpawnOffsetX: 9.599089
+      m_minSpawnOffsetY: -0.12
+      m_maxSpawnOffsetY: -0.12
+      m_minSpawnOffsetZ: 6.1869917
+      m_maxSpawnOffsetZ: 6.1869917
+      m_rotateToSlope: 1
+      m_minRotationOffsetX: -0
+      m_maxRotationOffsetX: -0
+      m_minRotationOffsetY: 0
+      m_maxRotationOffsetY: 0
+      m_minRotationOffsetZ: 0
+      m_maxRotationOffsetZ: 0
+      m_useParentScale: 0
+      m_minScale: 0.44596
+      m_maxScale: 0.44596
+      m_scaleByDistance:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_localBounds: 20.932964
+      m_virginTerrain: 0
+      m_extParam: 
+    - m_name: Tree9_2
+      m_desktopPrefab: {fileID: 114418, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefab: {fileID: 114418, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
+      m_mobilePrefabFileName: 
+      m_minInstances: 1
+      m_maxInstances: 1
+      m_failureRate: 0
+      m_minSpawnOffsetX: -5.128911
+      m_maxSpawnOffsetX: -5.128911
+      m_minSpawnOffsetY: -0.13
+      m_maxSpawnOffsetY: -0.13
+      m_minSpawnOffsetZ: 12.873491
+      m_maxSpawnOffsetZ: 12.873491
+      m_rotateToSlope: 1
+      m_minRotationOffsetX: -0
+      m_maxRotationOffsetX: -0
+      m_minRotationOffsetY: 0
+      m_maxRotationOffsetY: 0
+      m_minRotationOffsetZ: 0
+      m_maxRotationOffsetZ: 0
+      m_useParentScale: 0
+      m_minScale: 0.63496
+      m_maxScale: 0.63496
+      m_scaleByDistance:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_localBounds: 18.623852
+      m_virginTerrain: 0
       m_extParam: 
     m_dna:
-      m_width: 20
-      m_height: 20
-      m_boundsRadius: 8
-      m_seedThrow: 25
+      m_width: 36.931656
+      m_height: 15.827078
+      m_boundsRadius: 36.931656
+      m_seedThrow: 55.397484
       m_minScale: 1
       m_maxScale: 1
       m_rndScaleInfluence: 0
-      m_extParam: nograss
+      m_extParam: 
       m_protoIdx: 0
     m_spawnCriteria:
     - m_name: 
       m_checkType: 1
       m_virginTerrain: 1
       m_checkHeight: 1
-      m_minHeight: 2
-      m_maxHeight: 500
+      m_minHeight: 0
+      m_maxHeight: 950
       m_heightFitness:
         serializedVersion: 2
         m_Curve:
@@ -358,32 +786,23 @@ MonoBehaviour:
           outSlope: 0
           tangentMode: 0
           weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
+          inWeight: 0
+          outWeight: 0
         - serializedVersion: 3
-          time: 0.752724
-          value: 0.86793315
-          inSlope: -0.3548262
-          outSlope: -0.3548262
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.3307807
-        - serializedVersion: 3
-          time: 0.9985962
-          value: 0.40000153
+          time: 1
+          value: 0
           inSlope: 0
           outSlope: 0
           tangentMode: 0
           weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
+          inWeight: 0
+          outWeight: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
-        m_RotationOrder: 0
+        m_RotationOrder: 4
       m_checkSlope: 1
       m_minSlope: 0
-      m_maxSlope: 8
+      m_maxSlope: 5
       m_slopeFitness:
         serializedVersion: 2
         m_Curve:
@@ -394,41 +813,59 @@ MonoBehaviour:
           outSlope: 0
           tangentMode: 0
           weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
+          inWeight: 0
+          outWeight: 0
         - serializedVersion: 3
-          time: 0.2396065
-          value: 0.508673
-          inSlope: -1.2870274
-          outSlope: -1.2870274
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        - serializedVersion: 3
-          time: 1.0027466
-          value: 0.1347351
+          time: 1
+          value: 0
           inSlope: 0
           outSlope: 0
           tangentMode: 0
           weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
+          inWeight: 0
+          outWeight: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
-        m_RotationOrder: 0
+        m_RotationOrder: 4
       m_checkProximity: 0
       m_proximityTag: 
       m_minProximity: 0
-      m_maxProximity: 0
+      m_maxProximity: 100
       m_proximityFitness:
         serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 0
-        m_PostInfinity: 0
-        m_RotationOrder: 0
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.3
+          value: 0.2
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
       m_checkTexture: 0
-      m_matchingTextures: 
+      m_matchingTextures: '!3'
       m_isActive: 1
     m_spawnExtensions: []
     m_canSpawnAsTree: 0
