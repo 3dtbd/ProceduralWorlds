@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿#if PEGASUS
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -37,3 +38,4 @@ namespace Pegasus
         }
     }
 }
+#endif
